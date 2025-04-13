@@ -1,0 +1,459 @@
+{
+  "ical button-text": "Добавить в календарь",
+  "delete button-text": "Удалить",
+  "delete error": "Не получилось удалить задачу",
+  "delete confirm": "Удаление задачи отменить невозможно. Удалить?",
+  "discuss button-text": "Обсудить",
+  "task assignee": "Исполнители",
+  "task author": "Автор",
+  "task button-cancel": "Отмена",
+  "task button-save": "Сохранить",
+  "task-editor checklist-placeholder": "список",
+  "task-editor priority": {
+    "dictionary": {
+      "None": "Нет",
+      "Lowest": "Незначительный",
+      "Low": "Низкий",
+      "Medium": "Средний",
+      "High": "Высокий",
+      "Highest": "Наивысший"
+    }
+  },
+  "task-editor status": {
+    "dictionary": {
+      "New": "Новая",
+      "ToDo": "Запланировано",
+      "InProgress": "В работе",
+      "Resolved": "Сделано",
+      "Review": "Приёмка",
+      "Approved": "Принято",
+      "Closed": "Закрыто"
+    }
+  },
+  "task due-date": {
+    "input": {
+      "date": "Без срока"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "task due-date-info": "Крайний срок",
+  "task files": "Файлы",
+  "task files add": "Добавить",
+  "task files download-error": "Произошла ошибка при скачивании файла, возможно он слишком большой",
+  "task files download-error message-link": "Показать в чате",
+  "task files download-error retry": "Попробовать снова",
+  "task files invalid-amount": [
+    {
+      "task files invalid-amount amount": [
+        0
+      ]
+    },
+    "файл(ов) превысило лимит в",
+    {
+      "task files invalid-amount limit": [
+        0
+      ]
+    }
+  ],
+  "task files invalid-amount amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-amount limit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-conjunction": " и ",
+  "task files invalid-conjunction-2": ";\n",
+  "task files invalid-size": [
+    {
+      "task files invalid-size amount": [
+        0
+      ]
+    },
+    "файлов певысило размер в",
+    {
+      "task files invalid-size limit": [
+        0
+      ]
+    },
+    "МБ"
+  ],
+  "task files invalid-size amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-size limit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-title": "Некоторые файлы не прошли проверку",
+  "task files size": [
+    "до",
+    {
+      "task files size unit": [
+        20
+      ]
+    },
+    "МБ"
+  ],
+  "task files size unit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files valid-amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files valid-conclusion": [
+    "Всего осталось",
+    {
+      "task files valid-amount": [
+        0
+      ]
+    },
+    "подходящих файлов."
+  ],
+  "task group-name": {
+    "dictionary": {
+      "tg_exp": "Просроченные",
+      "tg_inc": "Входящие",
+      "tg_next": "Позже",
+      "tg_next7": "Следующие 7 дней",
+      "tg_tod": "Сегодня",
+      "tg_tom": "Завтра",
+      "tg_without": "Без даты"
+    }
+  },
+  "task history": "История и комментарии",
+  "task history filter": [
+    "Смотреть",
+    {
+      "task history filter type": [
+        "all"
+      ]
+    }
+  ],
+  "task history filter type": {
+    "dictionary": {
+      "all": "всё",
+      "comment": "комментарии",
+      "update": "события"
+    },
+    "input": {
+      "fallback": "всё"
+    }
+  },
+  "task history hint": "Вы можете оставить комментарий, для этого ответьте на любое уведомление от бота в чате по этой задаче 👌",
+  "task history hint hide": "Понятно, скрыть подсказку",
+  "task history sort title": "Показать:",
+  "task history sort type": {
+    "dictionary": {
+      "new-first": "сначала новое ▲",
+      "old-first": "сначала старое ▼"
+    }
+  },
+  "task history update": {
+    "dictionary": {
+      "attach": "Добавлен файл",
+      "author": "Изменён автор",
+      "coassignees": "Обновлены исполнители",
+      "complete": "🟢 Задача выполнена",
+      "completedUsersComplete": "🟢 Свою часть закончили",
+      "completedUsersReopen": "⚪ Возобновили работу",
+      "create": "Задача создана",
+      "description": "Обновлено описание",
+      "detach": "Удалён файл",
+      "dueDate": "Изменён крайний срок",
+      "planCron": "Изменено правило повторения",
+      "planDate": "Изменена плановая дата",
+      "planDateNotifications": "Изменены уведомления даты",
+      "dueDateNotifications": "Изменены уведомления крайнего срока",
+      "project": "Перенос в другой проект",
+      "reopen": "⚪ Задача переоткрыта",
+      "title": "Обновлено название"
+    },
+    "input": {
+      "fallback": "Прочие изменения"
+    }
+  },
+  "task history update empty": "Нет",
+  "task history description view old": "Старое описание",
+  "task history description view new": "Новое описание",
+  "task history description view copy": "Скопировать",
+  "task history description view copied": "Скопировано!",
+  "task history description view close": "Закрыть",
+  "task history description view": "Посмотреть изменения",
+  "task no files": "Прикрепить файлы",
+  "task plan-cron at": "в",
+  "task plan-cron day": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-cron month": {
+    "date": {
+      "day": "numeric"
+    }
+  },
+  "task plan-cron repeat-day": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    {
+      "task plan-cron at": [
+        0
+      ]
+    },
+    {
+      "task plan-cron time": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-day-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-mon-fri": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    },
+    {
+      "task plan-cron at": [
+        0
+      ]
+    },
+    {
+      "task plan-cron time": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-mon-fri-short": "Пн-Пт",
+  "task plan-cron repeat-month": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    {
+      "task plan-cron month": [
+        0
+      ]
+    },
+    "го"
+  ],
+  "task plan-cron repeat-month-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-undefined": [
+    {
+      "task plan-cron repetition": [
+        "Никогда"
+      ]
+    }
+  ],
+  "task plan-cron repeat-undefined-short": [
+    {
+      "task plan-cron repetition-short": [
+        "Никогда"
+      ]
+    }
+  ],
+  "task plan-cron repeat-weekday": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    },
+    "(",
+    {
+      "task plan-cron weekday": [
+        0
+      ]
+    },
+    ")"
+  ],
+  "task plan-cron repeat-weekday-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-year": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    {
+      "task plan-cron year": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-year-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repetition": {
+    "dictionary": {
+      "day": "Каждый день,",
+      "mon-fri": "С Пн по Пт",
+      "month": "Каждый месяц,",
+      "weekday": "Каждый ",
+      "year": "Каждый год,"
+    },
+    "input": {
+      "fallback": "Никогда"
+    }
+  },
+  "task plan-cron repetition-day": "Каждый день",
+  "task plan-cron repetition-mon-fri": "С Пн по Пт,",
+  "task plan-cron repetition-month": "Каждый месяц,",
+  "task plan-cron repetition-short": {
+    "dictionary": {
+      "day": "Ежедневно",
+      "mon-fri": "С Понедельника по Пятницу",
+      "month": "Ежемесячно",
+      "weekday": "Еженедельно",
+      "year": "Ежегодно"
+    },
+    "input": {
+      "fallback": "Никогда"
+    }
+  },
+  "task plan-cron repetition-shortest": {
+    "dictionary": {
+      "day": "D",
+      "mon-fri": "WW",
+      "month": "M",
+      "weekday": "W",
+      "year": "Y"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "task plan-cron repetition-undefined": "Никогда",
+  "task plan-cron repetition-weekday": {
+    "dictionary": [
+      "Каждое ",
+      "Каждый ",
+      "Каждый ",
+      "Каждую ",
+      "Каждый ",
+      "Каждую ",
+      "Каждую "
+    ]
+  },
+  "task plan-cron repetition-year": "Каждый год,",
+  "task plan-cron time": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-cron weekday": {
+    "date": {
+      "weekday": "long"
+    }
+  },
+  "task plan-cron year": {
+    "date": {
+      "day": "numeric",
+      "month": "numeric"
+    }
+  },
+  "task plan-cron-info": "Повтор",
+  "task plan-cron-info time": [
+    "Повторять в",
+    {
+      "task plan-cron-info time": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron-info time-date": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-date": {
+    "input": {
+      "date": "Без даты",
+      "today": "Сегодня",
+      "tomorrow": "Завтра",
+      "yesterday": "Вчера"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "task plan-date-info": "Дата",
+  "task project": "Проект",
+  "task time": {
+    "input": "",
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "date": ""
+    }
+  },
+  "task time-info": "Время",
+  "task-edit page-title": "Редактирование задачи",
+  "task-editor add-assignee": "Назначить",
+  "task-editor button-create": "Создать",
+  "task-editor contacts-deselect-all": "Снять выбор",
+  "task-editor contacts-select-all": "Выбрать всех",
+  "task-editor description-more": "ещё",
+  "task-editor description-placeholder": "Описание…",
+  "task-editor none": "Нет",
+  "task-editor notification-immediate": "Во время",
+  "task-editor notification-prefix": "За",
+  "task-editor no-date": "Нет даты",
+  "task-editor notifications-info": "Уведомления",
+  "task-editor title-placeholder": "Название задачи"
+}

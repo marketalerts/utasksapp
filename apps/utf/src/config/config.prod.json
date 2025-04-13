@@ -1,0 +1,48 @@
+{
+  "backurl": "https://app.utasks.io/utb",
+  "boturl": "https://t.me/UTasksBot",
+  "defaultlocale": "en",
+  "disablePayments": false,
+  "display_assignee_limit": 4,
+  "display_assignee_width": 3,
+  "locales": [
+    "en",
+    "ru",
+    "es",
+    "fa"
+  ],
+  "localeurl": "https://utasks-prod-default-rtdb.europe-west1.firebasedatabase.app/utf/locales",
+  "payment_options": [
+    "MIR",
+    "MC",
+    "Wallet"
+  ],
+  "platformwarning": [
+    "weba",
+    "webk",
+    "unknown"
+  ],
+  "preload_tasklists": true,
+  "settings_structure": [
+    {
+      "section": "collaborative",
+      "links": [
+        "PR_EVENTS",
+        "PR_TIMEZONE",
+        "PR_LANGUAGE"
+      ]
+    },
+    {
+      "section": "personal",
+      "links": [
+        "PR_USER_TASKS_USERSONLY",
+        "PR_USER_EVENTS"
+      ]
+    }
+  ],
+  "taskcomplete_refetch_delay": 500,
+  "taskcomplete_send_delay": 1000,
+  "taskuncomplete_refetch_delay": 500,
+  "taskuncomplete_send_delay": 0,
+  "trial_days": 5
+}

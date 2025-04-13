@@ -1,0 +1,31 @@
+name: Deploy to test
+
+on:
+  workflow_call:
+    inputs:
+      tag:
+        type: string
+        default: ${{ github.ref_name }}
+        description: A version to checkout
+  workflow_dispatch:
+    tags:
+      - "*"
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  deploy-test:
+    runs-on: shell
+    steps:
+      - name: Checkout config repo
+        uses: actions/checkout@v4
+        with:
+          repository: marketalerts/utaskscfg
+          token: ${{ secrets.GIT_PAT }}
+          path: utaskscfg
+      - name: Run ansible playbook
+        run: cd utaskscfg; ansible-playbook -i inventory -l ut_test -e app_name=utf -e app_tag=${{ inputs.tag }} -e registry_user=${{ github.actor }} -e registry_pass=${{ secrets.GITHUB_TOKEN }} -e registry_name=${{ env.REGISTRY }} update-app.yml -v
+      - name: remove config repo
+        run: rm -rf ./utaskscfg

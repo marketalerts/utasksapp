@@ -1,0 +1,21 @@
+{
+  "home-button text": "Volver a casa",
+  "standard-error description": {
+    "dictionary": {
+      "403": "Lamentablemente, no se le permite entrar aquí y no puede ver este proyecto o tarea. A una tarea sólo pueden acceder su autor y las personas asignadas.",
+      "404": "Si está seguro de que algo debería existir aquí, póngase en contacto con nuestro servicio de asistencia:"
+    },
+    "input": {
+      "fallback": "Probably nothing scary, but you should still contact support:"
+    }
+  },
+  "standard-error title": {
+    "dictionary": {
+      "403": "¡Acceso restringido!",
+      "404": "Esta página no se encontró en nuestros servidores"
+    },
+    "input": {
+      "fallback": "Algo malo ha pasado con la aplicación"
+    }
+  }
+}

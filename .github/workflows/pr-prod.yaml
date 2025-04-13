@@ -1,0 +1,35 @@
+name: Generate production tag, build, and deploy to production
+
+on:
+  pull_request:
+    branches: [main]
+    types: [closed]
+  workflow_dispatch:
+      tags:
+        - "*"
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  version:
+    if: github.event.pull_request.merged == true
+    uses: ./.github/workflows/version-prod.yaml
+    secrets: inherit
+
+  build:
+    if: github.event.pull_request.merged == true
+    needs: version
+    uses: ./.github/workflows/build-prod.yaml
+    secrets: inherit
+    with:
+      tag: ${{ needs.version.outputs.tag }}
+
+  deploy:
+    if: github.event.pull_request.merged == true
+    needs: build
+    uses: ./.github/workflows/deploy-production.yaml
+    secrets: inherit
+    with:
+      tag: ${{ needs.build.outputs.tag }}

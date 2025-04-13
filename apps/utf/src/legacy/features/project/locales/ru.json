@@ -1,0 +1,76 @@
+{
+  "avatar section": "Аватар проекта",
+  "avatar area section": "Иконка области",
+  "delete avatar": "Удалить картинку",
+  "delete button-text": "Удалить проект",
+  "delete confirm": "При удалении проекта вы потеряете все задачи в нем. Удалить проект?",
+  "delete error": "Не получилось удалить проект",
+  "delete public": "Чтобы удалить проект выйдите из соответствующей группы в Telegram.",
+  "delete area confirm": "Удалив область, проекты в ней больше не будут сгруппированы, но их данные останутся нетронуты. Удалить область?",
+  "empty-list desc": "Добавляйте новые задачи в два клика или переходите к подробному созданию",
+  "empty-list title": "Всё схвачено",
+  "hide-completed": "Скрыть выполненные",
+  "internal link": {
+    "dictionary": {
+      "settings": "Настройки проекта"
+    }
+  },
+  "limit-exceeded desc": "Подпишитесь на UTasks Pro, чтобы создавать задачи без ограничений",
+  "limit-exceeded title": "Перейти на тариф Pro",
+  "list loading": "Загрузка задач для проекта",
+  "members": {
+    "input": 0,
+    "parameter": {
+      "few": "участника",
+      "many": "участников",
+      "one": "участник",
+      "other": "участников"
+    },
+    "processor": {
+      "plural": ""
+    }
+  },
+  "members status": {
+    "dictionary": {
+      "Administrator": "Админ",
+      "Creator": "Админ",
+      "Member": "",
+      "None": ""
+    }
+  },
+  "journal": "Журнал",
+  "files": "Файлы",
+  "members literal": "Участники",
+  "members update": "Обновить",
+  "members updating": "Обновляем",
+  "rename text": "Название проекта",
+  "rename area text": "Название области",
+  "delete area button-text": "Удалить область",
+  "rename text-placeholder": "Ну хотя бы буковку напишите",
+  "save changes": "Сохранить изменения",
+  "show-completed": "Показать выполненные",
+  "subtitle private": "Личный проект",
+  "subtitle public": [
+    "input:members",
+    {
+      "members": [
+        0
+      ]
+    }
+  ],
+  "task-counter": {
+    "input": {
+      "default": "Все"
+    },
+    "parameter": {
+      "all": "Все",
+      "assignee": "Исполнитель",
+      "author": "Автор"
+    },
+    "processor": {
+      "dictionary": ""
+    }
+  },
+  "update avatar": "Обновить картинку",
+  "upload avatar": "Загрузить картинку"
+}

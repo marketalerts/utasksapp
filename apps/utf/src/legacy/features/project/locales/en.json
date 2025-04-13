@@ -1,0 +1,81 @@
+{
+  "avatar section": "Project avatar",
+  "avatar area section": "Area icon",
+  "delete avatar": "Delete picture",
+  "delete button-text": "Delete project",
+  "delete confirm": "If you delete a project, you will lose all tasks in it. Delete a project?",
+  "delete area confirm": "If you delete the area, all projects will become disorganized, but your tasks will be left untouched. Are you sure?",
+  "delete error": "There was an error deleting the project",
+  "delete public": "You will have to leave the chat of this project to delete it from the list.",
+  "empty-list desc": "Add new tasks via quick-create button or open a full task creation form",
+  "empty-list title": "All good!",
+  "hide-completed": "Hide completed",
+  "internal link": {
+    "dictionary": {
+      "settings": "Project settings"
+    }
+  },
+  "details links": {
+    "dictionary": {
+      "settings": "Settings",
+      "filters": "Filters",
+      "other": "Other"
+    }
+  },
+  "limit-exceeded desc": "Get UTasks Pro to freely create tasks in unlimited group projects",
+  "limit-exceeded title": "Free projects or tasks limit exceeded",
+  "list loading": "Loading tasks",
+  "members": {
+    "input": 0,
+    "parameter": {
+      "one": "member",
+      "other": "members"
+    },
+    "processor": {
+      "plural": ""
+    }
+  },
+  "members literal": "Members",
+  "journal": "Journal",
+  "files": "Files",
+  "members status": {
+    "dictionary": {
+      "Administrator": "Admin",
+      "Creator": "Admin",
+      "Member": "",
+      "None": ""
+    }
+  },
+  "members update": "Update",
+  "members updating": "Updating",
+  "rename text": "Project name",
+  "rename area text": "Area name",
+  "delete area button-text": "Delete area",
+  "rename text-placeholder": "My project",
+  "save changes": "Save changes",
+  "show-completed": "Show completed",
+  "subtitle private": "Personal project",
+  "subtitle public": [
+    "0:members",
+    {
+      "members": [
+        0
+      ]
+    }
+  ],
+  "task-counter": {
+    "input": {
+      "default": "All"
+    },
+    "parameter": {
+      "all": "All",
+      "assignee": "Assignee",
+      "author": "Author"
+    },
+    "processor": {
+      "dictionary": ""
+    }
+  },
+  "update avatar": "Update picture",
+  "upload avatar": "Upload picture"
+}

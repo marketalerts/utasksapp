@@ -1,0 +1,220 @@
+{
+  "bg": {
+    "bottom-bar": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-bottom-bar-bg-color}"
+    },
+    "header-primary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-bg-color}"
+    },
+    "header-secondary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-secondary-bg-color}"
+    },
+    "primary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-bg-color}"
+    },
+    "secondary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-secondary-bg-color}"
+    },
+    "section": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-section-bg-color}"
+    },
+    "blue": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-blue-color}"
+    },
+    "brown": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-brown-color}"
+    },
+    "cyan": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-cyan-color}"
+    },
+    "gray": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-gray-color}"
+    },
+    "green": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-green-color}"
+    },
+    "indigo": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-indigo-color}"
+    },
+    "mint": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-mint-color}"
+    },
+    "orange": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-orange-color}"
+    },
+    "pink": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-pink-color}"
+    },
+    "purple": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-purple-color}"
+    },
+    "red": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-red-color}"
+    },
+    "teal": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-teal-color}"
+    },
+    "yellow": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-yellow-color}"
+    }
+  },
+  "border": {
+    "regular": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-separator-regular-color}"
+    },
+    "strong": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-custom-separator-strong-color}"
+    }
+  },
+  "icon": {
+    "accented": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-accent-text-color}"
+    },
+    "link": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-link-color}"
+    },
+    "on-color": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-button-text-color}"
+    },
+    "negative": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-destructive-text-color}"
+    },
+    "primary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-text-color}"
+    },
+    "secondary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-subtitle-text-color}"
+    },
+    "tertiary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-hint-color}"
+    }
+  },
+  "text": {
+    "accented": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-accent-text-color}"
+    },
+    "link": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-link-color}"
+    },
+    "on-color": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-button-text-color}"
+    },
+    "negative": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-destructive-text-color}"
+    },
+    "primary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-text-color}"
+    },
+    "secondary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-subtitle-text-color}"
+    },
+    "tertiary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{--tg-theme-hint-color}"
+    }
+  }
+}

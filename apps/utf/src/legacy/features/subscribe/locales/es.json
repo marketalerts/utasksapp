@@ -1,0 +1,235 @@
+{
+  "about description": "Tendrás acceso ilimitado a todas las funciones de UTasks Pro durante la duración de tu suscripción. ¡Cancela tu suscripción en cualquier momento sin tarifas ocultas!",
+  "about plan description": [
+    "Se deducirá automáticamente un pago de",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "plan en la fecha de vencimiento",
+    {
+      "plan expiration-date": [
+        0
+      ]
+    }
+  ],
+  "about plan description-cancelled": [
+    "Tu suscripción expirará el",
+    {
+      "plan expiration-date": [
+        0
+      ]
+    }
+  ],
+  "about plan subtitle": [
+    {
+      "plan code": [
+        0
+      ]
+    }
+  ],
+  "about plan title": "Tu suscripción",
+  "about title": "Acerca de la suscripción",
+  "amount section gift": "Comprar como regalo",
+  "amount section quantity": "Cantidad",
+  "amount section subtitle": [
+    "Compra licencias para todo el equipo o como regalo",
+    "Descuentos al comprar 2 o más licencias"
+  ],
+  "amount section title": "Cantidad de licencias",
+  "benefits": {
+    "dictionary": [
+      "Priority!NEW: Establecer prioridades y estado: Marca tareas importantes y sigue el progreso con los estados",
+      "Files!NEW: Agregar archivos: Sube y accede a archivos directamente dentro de la tarea",
+      "Command!NEW: Short commands: Manage tasks directly in the group chat, no mini app required",
+      "Avatar!NEW: Avatares de proyectos privados: Subir y configurar avatares para proyectos personales",
+      "People: Múltiples asignados: ¡Asigna a muchas personas a cualquier tarea!",
+      "Folder: Más proyectos: Crea más proyectos sin limitaciones",
+      "Task: Tareas ilimitadas: Crea tareas en chats grupales sin limitaciones",
+      "Clock: Plazos para tareas: Establece plazos y asegura la finalización oportuna",
+      "PurpleStack: Áreas de proyectos: Mantén el orden y encuentra fácilmente los proyectos deseados",
+      "Business: Oferta especial para entidades legales: Descuentos al comprar más de 5 suscripciones a la vez; aceptamos transferencias directas a nuestra cuenta empresarial. Contacta a nuestro soporte para obtener más información."
+    ],
+    "input": {
+      "key": "0"
+    }
+  },
+  "benefits links": {
+    "dictionary": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "input": {
+      "key": "0"
+    }
+  },
+  "benefits title": "Beneficios del plan",
+  "legal agreement": " el acuerdo del usuario",
+  "legal conjunction-1": ", ",
+  "legal conjunction-2": ", y",
+  "legal policy": " política de privacidad",
+  "legal policy payment": " política de suscripción",
+  "legal pre": "Acepto a",
+  "paid-subsubtitle": "Ahora tienes acceso a todas las funciones.",
+  "paid-subtitle": "¡Gracias por suscribirte!",
+  "payment-disabled message": "Debido a un mantenimiento programado, hemos deshabilitado temporalmente la capacidad de comprar la suscripción a UTasks Pro. Por favor, inténtalo nuevamente más tarde.",
+  "payment-disabled title": "Pagos deshabilitados",
+  "payment-options section title": "Opciones de pago",
+  "payment-options section title single": "Opciones de pago",
+  "payment-options subtitle": {
+    "dictionary": {
+      "MC": "Mastercard only",
+      "MIR": "MIR, Yandex.Pay, RUS Visa, RUS Mastercard",
+      "Wallet": "Telegram Wallet",
+      "XTR": "Telegram Stars"
+    }
+  },
+  "payment-options title": {
+    "dictionary": {
+      "MC": "Mastercard international",
+      "MIR": "Russian payment cards",
+      "Wallet": "TON (USDT)",
+      "XTR": "Internal Telegram currency"
+    }
+  },
+  "plan code": {
+    "dictionary": {
+      "3M": "Por 3 meses",
+      "6M": "Por 6 meses",
+      "M": "Por mes",
+      "S": "Por 2 semanas",
+      "Y": "Por año"
+    },
+    "input": {
+      "fallback": "",
+      "key": ""
+    }
+  },
+  "plan code-short": {
+    "dictionary": {
+      "3M": "3 meses",
+      "6M": "6 meses",
+      "M": "mes",
+      "S": "14 días",
+      "Y": "año"
+    },
+    "input": {
+      "fallback": "",
+      "key": "Y"
+    }
+  },
+  "plan discount": {
+    "input": [
+      0
+    ],
+    "number": {
+      "style": "percent"
+    }
+  },
+  "plan expiration-date": {
+    "input": {
+      "today": "hoy",
+      "tomorrow": "mañana"
+    },
+    "relative-date": {
+      "day": "numeric",
+      "month": "long",
+      "year": "numeric"
+    }
+  },
+  "plan price": {
+    "input": 0,
+    "number": {
+      "currency": "RUB",
+      "currencyDisplay": "symbol",
+      "style": "currency",
+      "trailingZeroDisplay": "stripIfInteger"
+    }
+  },
+  "plan title": "Planes de suscripción",
+  "plan title-paid": "Renovar suscripción",
+  "promo default-error": "Promoción no disponible",
+  "promo default-success": "¡Promoción aceptada!",
+  "promo placeholder": "Código de promoción",
+  "resubscribe": [
+    "Renovar por",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "por",
+    {
+      "plan code-short": [
+        ""
+      ]
+    }
+  ],
+  "subscribe": [
+    "Suscríbete por",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "por",
+    {
+      "plan code-short": [
+        ""
+      ]
+    }
+  ],
+  "subscribe fail": "¡Pago fallido!",
+  "subscribe status": {
+    "dictionary": {
+      "cancelled": "",
+      "failed": "Desafortunadamente, tu pago fue rechazado.",
+      "paid": "¡Felicidades! ¡Ahora eres un suscriptor!",
+      "pending": "Tu pago fue aceptado y necesitará algún tiempo para ser procesado."
+    },
+    "input": {
+      "key": "pending"
+    }
+  },
+  "subscribe success": "¡Pago exitoso! Su suscripción puede tardar un minuto en activarse.",
+  "subscribe-stars": [
+    "Suscríbete por",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "stars por",
+    {
+      "plan code-short": [
+        ""
+      ]
+    }
+  ],
+  "subscribe-trial": [
+    "Prolongar la prueba de Pro durante",
+    {
+      "plan price": [
+        0
+      ]
+    }
+  ],
+  "subsubtitle": "áreas y más",
+  "subsubtitle-2": "funciones exclusivas",
+  "subsubtitle-3": "con",
+  "subsubtitle-4": "UTasks Pro.",
+  "subtitle": "Proyectos ilimitados,",
+  "title": "UTasks Pro",
+  "title-short": "UTasks",
+  "unpaid-subsubtitle": "antes de la fecha de vencimiento y continúa disfrutando de todos los beneficios de",
+  "unpaid-subsubtitle-2": "UTasks Pro.",
+  "unpaid-subtitle": "Renueva la suscripción",
+  "unsubscribe": "Cancelar suscripción"
+}

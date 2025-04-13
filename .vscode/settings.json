@@ -1,0 +1,14 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "json.schemas": [{
+    "fileMatch": ["/apps/utf/src/legacy/features/*/locales/*.json"],
+    "url": "./apps/utf/src/legacy/features/_shared/l10n/l10n.schema.json"
+  }],
+  "unocss.root": [
+    "./apps/utf/"
+  ],
+  "unocss.autocomplete.strict": false,
+  "unocss.include": [
+    "./*"
+  ]
+}

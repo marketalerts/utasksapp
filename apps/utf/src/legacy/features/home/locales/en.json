@@ -1,0 +1,65 @@
+{
+  "attachassignee popup": "You have accepted the task",
+  "attachassignee popup accepted": "Task is already accepted",
+  "attachassignee popup go-to": "View",
+  "new-area-quick input-title": "New area name",
+  "new-project-quick input-title": "New project name",
+  "new-task-quick assignee": "Assign",
+  "new-task-quick input-title": "Add task",
+  "role expiration absolute": {
+    "relative-date": {
+      "day": "numeric",
+      "month": "2-digit"
+    }
+  },
+  "role expiration pro": [
+    "until",
+    "role expiration absolute"
+  ],
+  "role expiration relative": {
+    "relative-time": {
+      "numeric": "auto",
+      "unit": "day"
+    }
+  },
+  "role expiration trial": [
+    "ends",
+    "role expiration relative"
+  ],
+  "subscribe desc": "Unlimited amount of projects, deadline for tasks and more",
+  "subscribe title": "Switch to Pro plan",
+  "telegram channel feed image": {
+    "dictionary": [
+      "TG.svg",
+      "COINS2.svg",
+      "NEW-BLUE.svg"
+    ]
+  },
+  "telegram channel feed link": {
+    "dictionary": [
+      "https://t.me/UTasksBlogENG/79",
+      "https://t.me/UTasksBlogENG/70",
+      "https://t.me/UTasksBlogENG/74"
+    ]
+  },
+  "telegram channel feed link-text": {
+    "dictionary": [
+      "See tutorial",
+      "See pricing",
+      "Find out how"
+    ]
+  },
+  "telegram channel feed title": {
+    "dictionary": [
+      "New task type!",
+      "Payment via Telegram Stars",
+      "Attach files to tasks"
+    ]
+  },
+  "telegram channel name": "UTASKS NEWS",
+  "telegram channel-hide": "Hide",
+  "telegram channel-show": "Show",
+  "update button": "Update",
+  "update title": "Update available!",
+  "update title-loading": "Updating..."
+}

@@ -1,0 +1,120 @@
+{
+  "datepicker accept": "Применить",
+  "datepicker cancel": "Отменить",
+  "datepicker clear": "Очистить",
+  "datepicker time": "Укажите время",
+  "edit-area save": "Сохранить",
+  "edit-project info": "Здесь вы можете поменять название проекта на другое",
+  "edit-project input-desc": "Описание проекта",
+  "edit-project input-title": "Название проекта",
+  "edit-project save": "Сохранить",
+  "multiassignee benefit-desc": "Назначайте задачу на любое количество участников группы, хоть на всех!",
+  "multiassignee benefit-title": "Несколько исполнителей в задаче (PRO тариф)",
+  "new-area create": "Создать область",
+  "new-area desc": "Список проектов в одной теме - например \"Семья\" или \"Работа\"",
+  "new-area info": "Перетащите проект в созданную область, чтобы сгруппировать их вместе",
+  "new-area input-title": "Название области",
+  "new-area title": "Новая область",
+  "new-project create": "Создать проект",
+  "new-project desc": "Создайте список, в котором все задачи нацелены на один результат",
+  "new-project info": "Задачи можно будет добавить после создания «Проекта»",
+  "new-project input-desc": "Описание проекта",
+  "new-project input-title": "Название проекта",
+  "new-project title": "Новый личный проект",
+  "new-project-public desc": "Добавьте бота в общий чат Telegram для создания совместного проекта",
+  "new-project-public error-title": "Не получилось создать проект",
+  "new-project-public title": "Добавить в чат",
+  "new-task contacts-remove-assignee-title": "Убрать исполнителя",
+  "new-task contacts-save": "Применить",
+  "new-task contacts-search-placeholder": "Поиск - имя или алиас",
+  "new-task contacts-title": "Контакты",
+  "new-task create": "Создать задачу",
+  "new-task deadline": [
+    "Задача должа быть сделана до",
+    {
+      "new-task input-date": {
+        "date": "неопределённой даты",
+        "today": "сегодня",
+        "tomorrow": "завтра",
+        "yesterday": "вчера"
+      }
+    }
+  ],
+  "new-task desc": "Создайте задачу в папке \"Входящие\" или в проект",
+  "new-task input-add-assignee": "добавить исполнителя",
+  "new-task input-date": {
+    "input": {
+      "date": "Без даты",
+      "today": "Сегодня",
+      "tomorrow": "Завтра",
+      "yesterday": "Вчера"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "month": "2-digit",
+      "year": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-date-time": {
+    "input": {
+      "date": "Без даты",
+      "today": "Сегодня",
+      "tomorrow": "Завтра",
+      "yesterday": "Вчера"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "2-digit",
+      "year": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-desc": [
+    "Описание",
+    "new-task-passive"
+  ],
+  "new-task input-due-date": {
+    "input": {
+      "date": "Без дедлайна"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "month": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-due-date-time": {
+    "input": {
+      "date": "Без дедлайна"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-title": [
+    "Название",
+    "new-task-passive"
+  ],
+  "new-task past-date": "Внимание: задача будет просрочена сразу после создания, т.к. выбранная дата уже прошла",
+  "new-task title": "Новая задача",
+  "new-task-passive": "новой задачи",
+  "platform warning": "На данный момент эта функция не поддерживается на вашей платформе. Пожалуйста, попробуйте позже.",
+  "user add-bot action": "Добавить",
+  "user add-bot description": "Для корректной работы приложения нажмите кнопку \"Старт\" в чате с ботом",
+  "user add-bot title": "Добавьте бота к себе"
+}

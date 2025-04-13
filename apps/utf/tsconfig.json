@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "types": ["vinxi/types/client", "vite-plugin-pwa/client", "./src/global"],
+    "isolatedModules": true,
+    "experimentalDecorators": false,
+    "useDefineForClassFields": false,
+    "baseUrl": "./",
+    "paths": {
+      "shared/*": [
+        "./src/legacy/features/_shared/*",
+        "./src/domains/_shared/*"
+      ],
+
+      // NEW
+      "#/*": [
+        "src/domains/*",
+      ],
+
+      // LEGACY
+      "locales/*": ["./src/locales/*/index", "./src/legacy/features/*/locales/index"],
+      "i/*": ["./src/legacy/icons/*", "icons/*"],
+      "f/*": [
+        "./src/legacy/features/*"
+      ],
+      "src/*": ["./src/*"],
+      "~/*": ["./src/*"],
+    }
+  }
+}

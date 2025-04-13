@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'tgico';
+  src: url(../theme/fonts/tgico.ttf);
+}
+
+.tgico {
+  font-family: 'tgico' !important;
+
+  color: #FEB521;
+
+  speak: never;
+  speak-as: never;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  font-size: inherit;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 3%;
+}
+
+.sf-rounded {
+  font-family: ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  background-color: var(--tg-theme-secondary-bg-color, var(--default-tg-theme-secondary-bg-color));
+  color: var(--tg-theme-text-color, var(--default-tg-theme-text-color));
+}
+
+html.primary, html.primary body {
+  background-color: var(--tg-theme-bg-color, var(--default-tg-theme-bg-color));
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+* {
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select: none;
+  color: var(--tg-theme-text-color, var(--default-tg-theme-text-color));
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input, textarea {
+  -webkit-user-select: initial !important;   /* Safari */
+  user-select: initial !important;
+}
+
+::-webkit-file-upload-button {
+  display: none;
+}
+
+.user-select
+{
+  -webkit-touch-callout:text; /* iOS Safari */
+  -webkit-user-select:text;   /* Chrome/Safari/Opera */
+  -khtml-user-select:text;    /* Konqueror */
+  -moz-user-select:text;      /* Firefox */
+  -ms-user-select:text;       /* Internet Explorer/Edge */
+  user-select:text;           /* Non-prefixed version */
+}
+
+.user-select-all
+{
+  -webkit-touch-callout:all; /* iOS Safari */
+  -webkit-user-select:all;   /* Chrome/Safari/Opera */
+  -khtml-user-select:all;    /* Konqueror */
+  -moz-user-select:all;      /* Firefox */
+  -ms-user-select:all;       /* Internet Explorer/Edge */
+  user-select:all;           /* Non-prefixed version */
+}
+
+a {
+  color: var(--tg-theme-text-color, var(--default-tg-theme-text-color));
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+input, button, textarea {
+  border: 0;
+  padding: 0;
+  outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--tg-theme-hint-color, var(--default-tg-theme-hint-color));
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: var(--tg-theme-hint-color);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: var(--tg-theme-hint-color);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: var(--tg-theme-hint-color);
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--tg-theme-hint-color);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--tg-theme-hint-color);
+}
+::placeholder { /* Most modern browsers support this now. */
+  color: var(--tg-theme-hint-color);
+}
+
+input[type="time"]::-webkit-input-placeholder {
+  color: transparent;
+  opacity: 0;
+}
+
+input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+span {
+  color: inherit;
+}
+
+::backdrop, .backdrop {
+  position: fixed;
+  height: 200vh;
+  top: -50vh;
+
+  background-color: #000 !important;
+  opacity: 0.6 !important;
+  cursor: pointer;
+}
+
+.backdrop {
+  width: 100%;
+}
+
+:autofill {
+  appearance: unset !important;
+  background-image: unset !important;
+  background-color: inherit !important;
+  color: var(--tg-theme-button-text-color, var(--default-tg-theme-button-text-color)) !important;
+}
+
+::-webkit-datetime-edit,
+::-webkit-datetime-edit-fields-wrapper,
+::-webkit-datetime-edit-text,
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-year-field,
+::-webkit-inner-spin-button,
+::-webkit-calendar-picker-indicator,
+::-webkit-details-marker {
+  color: var(--tg-theme-text-color, var(--default-tg-theme-text-color));
+}
+
+details, details summary {
+  list-style: none !important;
+}
+
+summary::-webkit-details-marker {
+  display: none !important;
+}
+
+dialog {
+  overflow: auto;
+  max-height: 90%;
+}
+
+p {
+  margin: 0;
+}
+
+.hide-scrollbar {
+  /*FireFox*/
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  /*Chrome, Safari, Edge*/
+  display: none;
+}
+
+#app {
+  max-width: 30rem;
+  margin: auto;
+}

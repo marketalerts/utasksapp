@@ -1,0 +1,25 @@
+{
+  "home-button text": "Go home",
+  "retry-button text": "Try again",
+  "standard-error description": {
+    "dictionary": {
+      "403": "Unfortunately, you're not allowed here and cannot view this project or task. A task can only be accessed by its author and assignees.",
+      "404": "If you're sure something should exist here, please contact our support:"
+    },
+    "input": {
+      "fallback": "The app was trying to do something, but failed. Please tell our support about this so that we can fix this."
+    }
+  },
+  "standard-error stack-copy": "Copy text",
+  "standard-error stack-copy-done": "Copied!",
+  "standard-error stack-title": "Please, show this information to our support, it will help us help you:",
+  "standard-error title": {
+    "dictionary": {
+      "403": "Access restricted!",
+      "404": "This page wasn't found on our servers"
+    },
+    "input": {
+      "fallback": "Something bad happened! :("
+    }
+  }
+}

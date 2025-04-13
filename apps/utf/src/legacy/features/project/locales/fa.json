@@ -1,0 +1,63 @@
+{
+  "avatar section": "آواتار پروژه",
+  "delete avatar": "حذف تصویر",
+  "delete button-text": "حذف",
+  "delete confirm": "وقتی پروژه ای را حذف می کنید، تمام وظایف موجود در آن را از دست خواهید داد. پروژه حذف شود؟",
+  "delete area confirm": "اگر منطقه را حذف کنید، همه پروژه‌ها نامنظم می‌شوند، اما وظایف شما دست‌نخورده باقی خواهند ماند. آیا مطمئن هستید؟",
+  "delete error": "حذف پروژه موفق نشد",
+  "delete public": "برای حذف پروژه از گروه مربوطه در Telegram خارج شوید.",
+  "empty-list desc": "وظایف جدید را با دو کلیک اضافه کنید یا به ایجاد مفصل بگذرید",
+  "empty-list title": "همه چيز تحت کنترل است",
+  "hide-completed": "پنهان کردن تکمیل شده",
+  "internal link": {
+    "dictionary": {
+      "settings": "تنظیمات پروژه"
+    }
+  },
+  "limit-exceeded desc": "برای ایجاد وظایف بدون محدودیت به UTasks Pro ابونمان شوید ",
+  "limit-exceeded title": "از حد مجاز پروژه ها فراتر رفت",
+  "list loading": "بارگذاری وظایف برای یک پروژه",
+  "members": {
+    "input": 0,
+    "parameter": {
+      "few": "شرکت کننده",
+      "many": "شركت كنندگان",
+      "one": "شرکت کننده",
+      "other": "شركت كنندگان"
+    },
+    "processor": {
+      "plural": ""
+    }
+  },
+  "members literal": "شركت كنندگان",
+  "rename text": "نام پروژه",
+  "rename area text": "نام منطقه",
+  "delete area button-text": "حذف منطقه",
+  "rename text-placeholder": "پروژه شخصی",
+  "save changes": "ذخیره تغییرات",
+  "show-completed": "نمایش دادن تکمیل شده",
+  "subtitle private": "پروژه شخصی",
+  "subtitle public": [
+    "0:members",
+    {
+      "members": [
+        0
+      ]
+    }
+  ],
+  "task-counter": {
+    "input": {
+      "default": "همه"
+    },
+    "parameter": {
+      "all": "همه",
+      "assignee": "اجرا کننده",
+      "author": "تهیه کننده"
+    },
+    "processor": {
+      "dictionary": ""
+    }
+  },
+  "update avatar": "به‌روزرسانی تصویر",
+  "upload avatar": "بارگذاری تصویر"
+}

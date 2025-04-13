@@ -1,0 +1,427 @@
+{
+  "ical button-text": "اضافه کردن به تقویم",
+  "delete button-text": "حذف",
+  "delete error": "حذف وظیفه موفق نشد",
+  "delete confirm": "حذف یک وظیفه غیر قابل بازگشت است. حذف کنید؟",
+  "discuss button-text": "مورد بحث قرار دادن",
+  "task assignee": "اجرا کننده گان",
+  "task author": "تهیه کننده",
+  "task button-save": "ذخیره سازی کردن",
+  "task-editor checklist-placeholder": "فهرست بررسی",
+  "task-editor priority": {
+    "dictionary": {
+      "None": "هیچ‌کدام",
+      "Lowest": "خیلی کم",
+      "Low": "کم",
+      "Medium": "متوسط",
+      "High": "زیاد",
+      "Highest": "خیلی زیاد"
+    }
+  },
+  "task-editor status": {
+    "dictionary": {
+      "New": "جدید",
+      "ToDo": "برای انجام",
+      "InProgress": "در حال انجام",
+      "Resolved": "حل‌شده",
+      "Review": "در بررسی",
+      "Approved": "تأییدشده",
+      "Closed": "انجام‌شده"
+    }
+  },
+  "task due-date": {
+    "input": {
+      "date": "بدون مهلت"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "task due-date-info": "اخرین مهلت",
+  "task files": "فایل‌های پیوست شده",
+  "task files add": "پیوست کردن",
+  "task files invalid-amount": [
+    {
+      "task files invalid-amount amount": [
+        0
+      ]
+    },
+    "فایل‌ها از حد مجاز",
+    {
+      "task files invalid-amount limit": [
+        0
+      ]
+    },
+    "بیشتر بودند"
+  ],
+  "task files invalid-amount amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-amount limit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-conjunction": " و ",
+  "task files invalid-conjunction-2": "؛\n",
+  "task files invalid-size": [
+    {
+      "task files invalid-size amount": [
+        0
+      ]
+    },
+    "فایل‌ها بزرگ‌تر از",
+    {
+      "task files invalid-size limit": [
+        0
+      ]
+    },
+    "مگابایت بودند"
+  ],
+  "task files invalid-size amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-size limit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-title": "برخی فایل‌ها نامعتبر بودند",
+  "task files size": [
+    "تا",
+    {
+      "task files size unit": [
+        20
+      ]
+    },
+    "مگابایت"
+  ],
+  "task files size unit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files valid-amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files valid-conclusion": [
+    "در مجموع",
+    {
+      "task files valid-amount": [
+        0
+      ]
+    },
+    "فایل معتبر باقی مانده است."
+  ],
+  "task group-name": {
+    "dictionary": {
+      "tg_exp": "عقب افتاده",
+      "tg_inc": "صندوق ورودی",
+      "tg_next": "بعدا",
+      "tg_next7": "۷ روز آینده",
+      "tg_tod": "امروز",
+      "tg_tom": "فردا",
+      "tg_without": "بدون تاریخ"
+    }
+  },
+  "task no files": "پیوست فایل‌ها",
+  "task plan-cron at": "در",
+  "task plan-cron day": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-cron month": {
+    "date": {
+      "day": "2-digit"
+    }
+  },
+  "task plan-cron repeat-day": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    "در",
+    {
+      "task plan-cron time": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-day-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-month": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    "در روز",
+    {
+      "task plan-cron month": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-month-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-weekday": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    {
+      "task plan-cron weekday": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-weekday-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    },
+    {
+      "task plan-cron weekday": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-year": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    "در",
+    {
+      "task plan-cron year": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-year-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-undefined": [
+    {
+      "task plan-cron repetition": ["هرگز تکرار نشود"]
+    }
+  ],
+  "task plan-cron repeat-undefined-short": [
+    {
+      "task plan-cron repetition-short": ["هرگز تکرار نشود"]
+    }
+  ],
+  "task plan-cron repetition": {
+    "dictionary": {
+      "day": "هر روز،",
+      "month": "هر ماه،",
+      "weekday": "هر ",
+      "year": "هر سال،"
+    },
+    "input": {
+      "fallback": "هرگز تکرار نشود"
+    }
+  },
+  "task plan-cron repetition-day": "هر روز،",
+  "task plan-cron repetition-month": "هر ماه،",
+  "task plan-cron repetition-short": {
+    "dictionary": {
+      "day": "هر روز",
+      "month": "هر ماه",
+      "weekday": "هر ",
+      "year": "هر سال"
+    },
+    "input": {
+      "fallback": "هرگز تکرار نشود"
+    }
+  },
+  "task plan-cron repetition-shortest": {
+    "dictionary": {
+      "day": "/روز",
+      "month": "/م",
+      "weekday": "/ه",
+      "year": "/س"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "task plan-cron repetition-undefined": "هرگز",
+  "task plan-cron repetition-weekday": "هر ",
+  "task plan-cron repetition-year": "هر سال،",
+  "task plan-cron time": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-cron weekday": {
+    "date": {
+      "weekday": "long"
+    }
+  },
+  "task plan-cron year": {
+    "date": {
+      "day": "numeric",
+      "month": "numeric"
+    }
+  },
+  "task plan-cron-info": "تکرار",
+  "task plan-cron-info time": [
+    "تکرار در",
+    {
+      "task plan-cron-info time-date": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron-info time-date": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-date": {
+    "input": {
+      "date": "بدون تاریخ",
+      "today": "امروز",
+      "tomorrow": "فردا",
+      "yesterday": "دیروز"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "task plan-date-info": "تاریخ",
+  "task project": "پروژه",
+  "task time": {
+    "input": "",
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "date": ""
+    }
+  },
+  "task-edit page-title": "ویرایش یک وظیفه",
+  "task-editor add-assignee": "اختصاص دادن",
+  "task-editor button-create": "ايجاد كردن",
+  "task-editor contacts-deselect-all": "لغو انتخاب کنید",
+  "task-editor contacts-select-all": "همه را انتخاب کنید",
+  "task-editor description-more": "بیشتر",
+  "task-editor description-placeholder": "شرح…",
+  "task-editor none": "خیر",
+  "task-editor title-placeholder": "نام وظیفه",
+  "task history description view old": "توضیحات قدیمی",
+  "task history description view new": "توضیحات جدید",
+  "task history description view copy": "کپی کردن",
+  "task history description view copied": "کپی شد",
+  "task history description view close": "بستن",
+  "task history description view": "نمایش بیشتر",
+  "task history": "تاریخچه و نظرات",
+  "task history filter": [
+    "مشاهده",
+    {
+      "task history filter type": [
+        "همه"
+      ]
+    }
+  ],
+  "task history filter type": {
+    "dictionary": {
+      "all": "همه رویدادها",
+      "comment": "فقط نظرات",
+      "update": "فقط به‌روزرسانی‌ها"
+    },
+    "input": {
+      "fallback": "همه رویدادها"
+    }
+  },
+  "task history hint": "برای گذاشتن نظر، به پیامی از ربات در چت پروژه پاسخ دهید",
+  "task history hint hide": "متوجه شدم، پنهان کن",
+  "task history sort title": "نمایش:",
+  "task history sort type": {
+    "dictionary": {
+      "new-first": "جدیدترین اول ▲",
+      "old-first": "قدیمی‌ترین اول ▼"
+    }
+  },
+  "task history update": {
+    "dictionary": {
+      "attach": "فایلی پیوست شد",
+      "author": "نویسنده تغییر کرد",
+      "coassignees": "مأموران به‌روزرسانی شدند",
+      "complete": "🟢 کار کامل شد",
+      "completedUsersComplete": "🟢 کار خود را تمام کردند",
+      "completedUsersReopen": "⚪ کار خود را ادامه می‌دهد",
+      "create": "کار ایجاد شد",
+      "description": "توضیحات به‌روز شد",
+      "detach": "فایلی حذف شد",
+      "dueDate": "تاریخ پایان تغییر کرد",
+      "planCron": "تناوب کار تغییر کرد",
+      "planDate": "تاریخ برنامه‌ریزی تغییر کرد",
+      "project": "به پروژه دیگری منتقل شد",
+      "reopen": "⚪ کار دوباره باز شد",
+      "title": "عنوان به‌روز شد"
+    },
+    "input": {
+      "fallback": "به‌روزرسانی‌های متفرقه کار"
+    }
+  },
+  "task history update empty": "هیچ",
+  "task history-date": {
+    "input": {
+      "date": "بدون تاریخ",
+      "today": "امروز",
+      "tomorrow": "فردا",
+      "yesterday": "دیروز"
+    },
+    "relative-date": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    }
+  }
+}

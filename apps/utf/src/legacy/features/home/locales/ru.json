@@ -1,0 +1,73 @@
+{
+  "new-area-quick input-title": "Новая область",
+  "new-project-quick input-title": "Новый проект",
+  "new-task-quick assignee": "Назначить",
+  "new-task-quick input-title": "Добавить задачу",
+  "role expiration absolute": {
+    "relative-date": {
+      "day": "numeric",
+      "month": "2-digit"
+    }
+  },
+  "role expiration pro": [
+    "до",
+    "role expiration absolute"
+  ],
+  "role expiration relative": {
+    "relative-time": {
+      "numeric": "auto",
+      "skip": [
+        "через "
+      ],
+      "unit": "day"
+    }
+  },
+  "role expiration trial": [
+    "до",
+    "role expiration absolute"
+  ],
+  "subscribe desc": [
+    "Неограниченное количество проектов,",
+    "крайний срок для задач",
+    "и многое другое"
+  ],
+  "subscribe title": "Перейти на тариф Pro",
+  "telegram channel feed image": {
+    "dictionary": [
+      "PRIORITY.svg",
+      "TG.svg",
+      "COINS2.svg",
+      "NEW-BLUE.svg"
+    ]
+  },
+  "telegram channel feed link": {
+    "dictionary": [
+      "https://t.me/UTasksBlogRU/132",
+      "https://t.me/UTasksBlogRU/95",
+      "https://t.me/UTasksBlogRU/87",
+      "https://t.me/UTasksBlogRU/91"
+    ]
+  },
+  "telegram channel feed link-text": {
+    "dictionary": [
+      "Подробнее в канале",
+      "См. обучающее видео",
+      "Посмотреть цены",
+      "Узнать подробности"
+    ]
+  },
+  "telegram channel feed title": {
+    "dictionary": [
+      "Ставьте статусы и приоритеты!",
+      "Новый тип задач!",
+      "Оплата в Telegram Stars",
+      "Прикрепление файлов к задаче"
+    ]
+  },
+  "telegram channel name": "НОВОСТИ UTASKS",
+  "telegram channel-hide": "Свернуть",
+  "telegram channel-show": "Развернуть",
+  "update button": "Обновить",
+  "update title": "Доступно обновление приложения",
+  "update title-loading": "Обновляем..."
+}

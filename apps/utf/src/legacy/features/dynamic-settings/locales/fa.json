@@ -1,0 +1,117 @@
+{
+  "setting apply-defaults": "اعمال پیش‌فرض‌ها",
+  "setting id": {
+    "dictionary": {
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION": "نمایش بخش‌های پویا",
+      "CLIENT_TIMECYCLE_OPTIONS": "چرخه ساعت",
+      "CLIENT_NEWS_TOGGLE": "نمایش اخبار",
+      "CLIENT_GEAR_TOGGLE": "پیوند تنظیمات پروژه",
+      "USER_EVENTS": "اعلانات صندوق ورودی",
+      "USER_LANGUAGE": "زبان",
+      "USER_TIMEZONE": "منطقه زمانی",
+      "PR_EVENTS": "اعلانات رویدادها",
+      "PR_LANGUAGE": "زبان اعلان",
+      "PR_TIMEZONE": "منطقه زمانی اعلانات",
+      "PR_USER_EVENTS": "اعلانات شخصی",
+      "PR_USER_TASKS_USERSONLY": "فیلتر وظایف"
+    }
+  },
+  "setting id-description": {
+    "dictionary": {
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION": "انتخاب کنید کدام بخش‌ها را در صفحه اصلی خود نگه دارید",
+      "CLIENT_GEAR_TOGGLE": "محل پیوند آیکون تنظیمات، از صفحه پروژه گروه",
+      "CLIENT_NEWS_TOGGLE": "بخش در صفحه اصلی",
+      "USER_EVENTS": "انتخاب کنید کدام نوع از رویدادهای صندوق ورودی باید اعلانات ارسال کنند",
+      "PR_EVENTS": "انتخاب کنید کدام نوع از رویدادها باید اعلانات ارسال کنند به چت گروه",
+      "PR_LANGUAGE": "تغییر زبان پیام‌های اعلان که ربات به چت گروه ارسال می‌کند",
+      "PR_TIMEZONE": "تمام تاریخ‌ها در پیام‌های چت گروه نسبت به این منطقه زمانی نمایش داده می‌شوند",
+      "PR_USER_EVENTS": "انتخاب کنید کدام اعلان‌های وظیفه را مستقیماً از ربات دریافت کنید",
+      "PR_USER_TASKS_USERSONLY": "انتخاب کنید کدام وظایف را می‌توانید در لیست وظایف پروژه مشاهده کنید"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "setting rollback": "↶ بازنشانی به حالت اولیه",
+  "setting section": {
+    "dictionary": {
+      "collaborative": "همکاری",
+      "display": "نمایش اطلاعیه‌ها",
+      "notifications": "اطلاعیه‌ها",
+      "personal": "شخصی",
+      "inbox": "تنظیمات صندوق ورودی",
+      "app": "تنظیمات برنامه",
+      "app-display": "تنظیمات نمایش"
+    }
+  },
+  "setting section-description": {
+    "dictionary": {
+      "notifications": "سفارشی کردن چگونگی و زمان ارسال پیام‌های اعلان توسط ربات به چت گروه"
+    }
+  },
+  "setting toggle-all": {
+    "dictionary": {
+      "false": "غیرفعال کردن همه",
+      "true": "فعال کردن همه"
+    }
+  },
+  "setting toggle-text": {
+    "dictionary": {
+      "CLIENT_GEAR_TOGGLE_ENABLED": "تنظیمات",
+      "CLIENT_GEAR_TOGGLE_DISABLED": "اطلاعات",
+      "PR_USER_TASKS_USERSONLY_DISABLED": "همه وظایف",
+      "PR_USER_TASKS_USERSONLY_ENABLED": "فقط مال من",
+      "CLIENT_TIMECYCLE_UNDEFINED": "پیش‌فرض",
+      "CLIENT_TIMECYCLE_H11": "00:00AM - 11:59PM",
+      "CLIENT_TIMECYCLE_H12": "01:00AM - 12:59PM",
+      "CLIENT_TIMECYCLE_H23": "00:00 - 23:59",
+      "CLIENT_TIMECYCLE_H24": "01:00 - 24:59",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_ALL": "همه",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_COMPL": "تکمیل‌شده",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_NEXT7": "7 روز آینده",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_TOD": "امروز",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_TOM": "فردا",
+      "completeEvent": "هنگام تکمیل وظیفه",
+      "createEvent": "هنگام ایجاد وظیفه",
+      "deleteEvent": "هنگام حذف وظیفه",
+      "editEvent": "هنگام ویرایش وظیفه",
+      "uncompleteEvent": "هنگام بازگشایی وظیفه",
+      "notifyEvent": "در اعلان زمان‌بندی شده"
+    }
+  },
+  "setting toggle-text-description": {
+    "dictionary": {
+      "CLIENT_GEAR_TOGGLE_ENABLED": "مستقیم به تنظیمات پروژه",
+      "CLIENT_GEAR_TOGGLE_DISABLED": "به صفحه اطلاعات پروژه، جایی که تنظیمات پروژه قابل دسترسی هستند",
+      "PR_USER_TASKS_USERSONLY_DISABLED": "تمام وظایف پروژه برای شما قابل مشاهده هستند",
+      "PR_USER_TASKS_USERSONLY_ENABLED": "شما فقط وظایفی را می‌بینید که در آن‌ها مشارکت دارید (به عنوان نویسنده یا مسئول)",
+      "completeEvent": "🟢 #done",
+      "createEvent": "⚪️ #new",
+      "deleteEvent": "🔴 #delete",
+      "editEvent": "🟡 #change",
+      "uncompleteEvent": "⚪️ #reopen",
+      "notifyEvent": "⏰ زمان فرا رسیده است"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "setting value-boolean": {
+    "dictionary": {
+      "false": "خاموش",
+      "true": "روشن"
+    },
+    "input": {
+      "fallback": "مخلوط"
+    }
+  },
+  "setting value-task-visibility": {
+    "dictionary": {
+      "false": "همه",
+      "true": "فقط مال من"
+    },
+    "input": {
+      "fallback": ""
+    }
+  }
+}

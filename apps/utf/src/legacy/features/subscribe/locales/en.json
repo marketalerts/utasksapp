@@ -1,0 +1,238 @@
+{
+  "about description": "You will have unlimited access to all the features of UTasks Pro for the duration of your subscription. Cancel your subscription at any time with no hidden fees!",
+  "about plan description": [
+    "A payment of",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "will be deducted automatically",
+    {
+      "plan expiration-date": [
+        ""
+      ]
+    }
+  ],
+  "about plan description-cancelled": [
+    "Your subscription will expire",
+    {
+      "plan expiration-date": [
+        ""
+      ]
+    }
+  ],
+  "about plan subtitle": [
+    {
+      "plan code": [
+        "Y"
+      ]
+    }
+  ],
+  "about plan title": "Your subscription",
+  "about title": "About the subscription",
+  "amount section gift": "Buy as a gift",
+  "amount section quantity": "Quantity",
+  "amount section subtitle": [
+    "Purchase licenses for the whole team or as a gift",
+    "A discount applies when purchasing multiple at once"
+  ],
+  "amount section title": "Subscriptions quantity",
+  "benefits": {
+    "dictionary": [
+      "Priority!NEW: Set priorities and status: Mark important tasks and track progress with statuses",
+      "Files!NEW: Adding files: Upload and access files directly within the task",
+      "Command!NEW: Short commands: Manage tasks directly in the group chat, no mini app required",
+      "Avatar!NEW: Private project avatars: Upload and set avatars for personal projects",
+      "People: Multiple assignees: Assign lots of people to any task!",
+      "Folder: More projects: Create more projects without limitations",
+      "Task: Unlimited tasks: Create unlimited tasks in group chats",
+      "Clock: Deadlines for tasks: Set deadlines and ensure timely completion",
+      "PurpleStack: Project areas: Maintain order and easily find desired projects",
+      "Business: Special offer for legal entities: Discounts when buying more than 5 subscriptions at once; we accept direct transfers to our business account. Contact our support for more information."
+    ],
+    "input": {
+      "key": "0"
+    }
+  },
+  "benefits links": {
+    "dictionary": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "input": {
+      "key": "0"
+    }
+  },
+  "benefits title": "Plan benefits",
+  "legal agreement": " the user agreement",
+  "legal conjunction-1": ", ",
+  "legal conjunction-2": ", and",
+  "legal policy": " privacy policy",
+  "legal policy payment": " payment policy",
+  "legal pre": "I agree to",
+  "paid-subsubtitle": "You now have access to all features.",
+  "paid-subtitle": "Thank you for subscribing!",
+  "payment-disabled message": "Due to scheduled maintenance, we have temporarily disabled the ability to buy the UTasks Pro subscription.\nPlease, try again later.",
+  "payment-disabled title": "Payments are disabled",
+  "payment-options section title": "Choose payment method:",
+  "payment-options section title single": "Payment method:",
+  "payment-options subtitle": {
+    "dictionary": {
+      "MC": "Mastercard only",
+      "MIR": "MIR, Yandex.Pay, RUS Visa, RUS Mastercard",
+      "Wallet": "Telegram Wallet",
+      "XTR": "Internal Telegram currency"
+    }
+  },
+  "payment-options title": {
+    "dictionary": {
+      "MC": "Mastercard international",
+      "MIR": "Russian payment cards",
+      "Wallet": "TON (USDT)",
+      "XTR": "Telegram Stars"
+    }
+  },
+  "plan code": {
+    "dictionary": {
+      "3M": "For 3 months",
+      "6M": "For 6 months",
+      "M": "Per month",
+      "S": "For 2 weeks",
+      "Y": "Per year"
+    },
+    "input": {
+      "fallback": "",
+      "key": ""
+    }
+  },
+  "plan code-short": {
+    "dictionary": {
+      "3M": "3 months",
+      "6M": "6 months",
+      "M": "month",
+      "S": "14 days",
+      "Y": "year"
+    },
+    "input": {
+      "fallback": "",
+      "key": "Y"
+    }
+  },
+  "plan discount": {
+    "input": [
+      0
+    ],
+    "number": {
+      "style": "percent"
+    }
+  },
+  "plan expiration-date": {
+    "input": {
+      "today": "today",
+      "tomorrow": "tomorrow"
+    },
+    "relative-date": {
+      "day": "numeric",
+      "month": "long",
+      "year": "numeric"
+    }
+  },
+  "plan price": {
+    "input": 0,
+    "number": {
+      "currency": "RUB",
+      "currencyDisplay": "symbol",
+      "style": "currency",
+      "trailingZeroDisplay": "stripIfInteger"
+    }
+  },
+  "plan title": "Subscription plans",
+  "plan title-paid": "Prolong subscription",
+  "promo default-error": "Promo not available",
+  "promo default-success": "Promo accepted!",
+  "promo placeholder": "Promo code",
+  "resubscribe": [
+    "Prolong for",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "per",
+    {
+      "plan code-short": [
+        "Y"
+      ]
+    }
+  ],
+  "subscribe": [
+    "Subscribe for",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "per",
+    {
+      "plan code-short": [
+        "Y"
+      ]
+    }
+  ],
+  "subscribe fail": "Payment failed!",
+  "subscribe status": {
+    "dictionary": {
+      "cancelled": "",
+      "failed": "Unfortunately, your payment was rejected.",
+      "paid": "Congartulations! You are now a subscriber!",
+      "pending": "Your payment was accepted and will need some time to be processed."
+    },
+    "input": {
+      "key": "pending"
+    }
+  },
+  "subscribe success": "Payment successful! Your subscription might take a minute to become active.",
+  "subscribe-stars": [
+    "Subscribe for",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "stars per",
+    {
+      "plan code-short": [
+        "Y"
+      ]
+    }
+  ],
+  "subscribe-trial": [
+    "Prolong Pro Trial for",
+    {
+      "plan price": [
+        0
+      ]
+    }
+  ],
+  "subsubtitle": "areas and more",
+  "subsubtitle-2": "exclusive features",
+  "subsubtitle-3": "with",
+  "subsubtitle-4": "UTasks Pro.",
+  "subtitle": "Unlimited projects,",
+  "title": "UTasks Pro",
+  "title-short": "UTasks",
+  "unpaid-subsubtitle": "before the expiraition date and continue to enjoy all benefits of",
+  "unpaid-subsubtitle-2": "UTasks Pro.",
+  "unpaid-subtitle": "Prolong the subscription",
+  "unsubscribe": "Unsubscribe",
+  "unsubscribe confirm": "Are you sure you don't want to renew your subscription?",
+  "unsubscribe fail": "Error! Unfortunately, we couldn't cancel your subscription. Please try again or contact support if the issue persists.",
+  "unsubscribe success": "Success! Your subscription will not be auto-renewed anymore."
+}

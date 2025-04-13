@@ -1,0 +1,24 @@
+#create-task-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: var(--tg-theme-hint-color);
+  opacity: 1;
+}
+#create-task-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: var(--tg-theme-hint-color);
+  opacity: 1;
+}
+#create-task-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: var(--tg-theme-hint-color);
+  opacity: 1;
+}
+#create-task-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--tg-theme-hint-color);
+  opacity: 1;
+}
+#create-task-input::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--tg-theme-hint-color);
+  opacity: 1;
+}
+#create-task-input::placeholder { /* Most modern browsers support this now. */
+  color: var(--tg-theme-hint-color);
+  opacity: 1;
+}

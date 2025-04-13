@@ -1,0 +1,120 @@
+{
+  "datepicker accept": "مورد استفاده قرار گررفتن",
+  "datepicker cancel": "لغو کردن",
+  "datepicker clear": "پاک کردن",
+  "datepicker time": "وقت را مشخص کنید",
+  "edit-area save": "ذخیره سازی کردن",
+  "edit-project info": "در اینجا می توانید نام پروژه را به نام دیگری عوض کنید",
+  "edit-project input-desc": "شرح پروژه ",
+  "edit-project input-title": "نام پروژه",
+  "edit-project save": "ذخیره سازی کردن",
+  "multiassignee benefit-desc": "به هر تعداد از اعضای گروه، حتی به همه آنها، یک وظیفه را اختصاص دهید!",
+  "multiassignee benefit-title": "چند اجرا کننده گان در یک وظیفه (تعرفه (PRO ",
+  "new-area create": "یک ناحیه ایجاد کنید",
+  "new-area desc": "فهرست پروژه ها در یک موضوع - به عنوان مثال، \"خانواده\" یا \"کار\"",
+  "new-area info": "پروژه را به ناحیه ایجاد شده بکشید تا آنها را با هم گروه بندی کنید",
+  "new-area input-title": "نام ناحیه",
+  "new-area title": "ناحیه جدید",
+  "new-project create": "یک پروژه ایجاد کنید ",
+  "new-project desc": "فهرستی ایجاد کنید که در آن تمام وظایف یک نتیجه را هدف قرار دهند",
+  "new-project info": "پس از ایجاد \"پروژه\" می توان وظایف را اضافه کرد",
+  "new-project input-desc": "شرح پروژه ",
+  "new-project input-title": "نام پروژه",
+  "new-project title": "پروژه شخصی جدید",
+  "new-project-public desc": "برای ایجاد یک پروژه مشترک، یک بات به چت گروهی Telegram اضافه کنید",
+  "new-project-public error-title": "ایجاد پروژه موفق نشد",
+  "new-project-public title": "به چت اضافه کنید",
+  "new-task contacts-remove-assignee-title": "برداشتن اجرا کننده ",
+  "new-task contacts-save": "مورد استفاده قرار گررفتن",
+  "new-task contacts-search-placeholder": "جستجو - نام یا  نام مستعار",
+  "new-task contacts-title": "ارتباط",
+  "new-task create": "یک وظیفه ایجاد کردن",
+  "new-task deadline": [
+    "وظیفه باید تکمیل شود تا  ",
+    {
+      "new-task input-date": {
+        "date": "تاریخ نامعلوم",
+        "today": "امروز",
+        "tomorrow": "فردا",
+        "yesterday": "دیروز"
+      }
+    }
+  ],
+  "new-task desc": "یک وظیفه در صندوق ورودی ایجاد کنید یا به پروژه ",
+  "new-task input-add-assignee": "اجرا کننده را اضافه کنید ",
+  "new-task input-date": {
+    "input": {
+      "date": "بدون تاریخ",
+      "today": "امروز",
+      "tomorrow": "فردا",
+      "yesterday": "دیروز"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "month": "2-digit",
+      "year": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-date-time": {
+    "input": {
+      "date": "بدون تاریخ",
+      "today": "امروز",
+      "tomorrow": "فردا",
+      "yesterday": "دیروز"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "2-digit",
+      "year": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-desc": [
+    "شرح",
+    "new-task-passive"
+  ],
+  "new-task input-due-date": {
+    "input": {
+      "date": "بدون موعد مقرر"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "month": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-due-date-time": {
+    "input": {
+      "date": "بدون موعد مقرر"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-title": [
+    "نام",
+    "new-task-passive"
+  ],
+  "new-task past-date": "توجه: وظیفه بلافاصله پس از ایجاد منقضی می شود، زیرا تاریخ انتخاب شده قبلاً گذشته است",
+  "new-task title": "وظیفه جدید",
+  "new-task-passive": "وظیفه جدید",
+  "platform warning": "این عمل در حال حاضر در پلتفرم شما پشتیبانی نمی شود. لطفاً بعداً دوباره امتحان کنید.",
+  "user add-bot action": "اضافه کردن",
+  "user add-bot description": "برای اینکه برنامه به درستی کار کند، روی دکمه \"شروع\" در چت با بات کلیک کنید",
+  "user add-bot title": "یک بات را به خود اضافه کنید"
+}

@@ -1,0 +1,28 @@
+name: Generate proto tag, build, and deploy to test
+
+on:
+  pull_request:
+    branches: [main]
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  version:
+    uses: ./.github/workflows/version-dev.yaml
+    secrets: inherit
+
+  build:
+    needs: version
+    uses: ./.github/workflows/build-dev.yaml
+    secrets: inherit
+    with:
+      tag: ${{ needs.version.outputs.tag }}
+
+  deploy:
+    needs: build
+    uses: ./.github/workflows/deploy-test.yaml
+    secrets: inherit
+    with:
+      tag: ${{ needs.build.outputs.tag }}

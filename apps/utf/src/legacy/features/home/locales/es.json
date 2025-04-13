@@ -1,0 +1,70 @@
+{
+  "attachassignee popup": "Has aceptado la tarea",
+  "attachassignee popup accepted": "La tarea ya está aceptada",
+  "attachassignee popup go-to": "Ver",
+  "new-area-quick input-title": "Nombre de nueva área",
+  "new-project-quick input-title": "Nombre de nuevo proyecto",
+  "new-task-quick assignee": "Asignar",
+  "new-task-quick input-title": "Agregar tarea",
+  "role expiration absolute": {
+    "relative-date": {
+      "day": "numeric",
+      "month": "short"
+    }
+  },
+  "role expiration pro": [
+    "hasta",
+    {
+      "role expiration absolute": [
+        0
+      ]
+    }
+  ],
+  "role expiration relative": {
+    "relative-time": {
+      "numeric": "auto",
+      "skip": [
+        "dentro "
+      ],
+      "unit": "day"
+    }
+  },
+  "role expiration trial": [
+    "termina",
+    {
+      "role expiration relative": [
+        0
+      ]
+    }
+  ],
+  "subscribe desc": "Añade recordatorios, proyectos adicionales y más",
+  "subscribe title": "Cambia al plan Pro",
+  "telegram channel": "Canal",
+  "telegram channel feed image": {
+    "dictionary": [
+      "COINS2.svg"
+    ]
+  },
+  "telegram channel feed link": {
+    "dictionary": [
+      "https://t.me/UTasksBlogENG/70"
+    ]
+  },
+  "telegram channel feed link-text": {
+    "dictionary": [
+      "Ver precios"
+    ]
+  },
+  "telegram channel feed title": {
+    "dictionary": [
+      "Pago a través de Telegram Stars"
+    ]
+  },
+  "telegram channel link": "https://t.me/UTasksBlogENG",
+  "telegram channel name": "UTASKS NOTICIAS",
+  "telegram channel-hide": "Ocultar",
+  "telegram channel-show": "Mostrar",
+  "update button": "Actualizar",
+  "update title": "¡Actualización disponible!",
+  "update title-loading": "Actualizando..."
+}

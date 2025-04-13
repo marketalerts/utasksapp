@@ -1,0 +1,416 @@
+{
+  "ical button-text": "Añadir al calendario",
+  "delete button-text": "Eliminar",
+  "delete error": "Hubo un error al eliminar la tarea",
+  "delete confirm": "Eliminar una tarea no se puede deshacer. ¿Eliminar?",
+  "discuss button-text": "Discutir",
+  "task assignee": "Asignados",
+  "task author": "Autor",
+  "task-editor checklist-placeholder": "lista",
+  "task-editor priority": {
+    "dictionary": {
+      "None": "Ninguna",
+      "Lowest": "Muy baja",
+      "Low": "Baja",
+      "Medium": "Media",
+      "High": "Alta",
+      "Highest": "Muy alta"
+    }
+  },
+  "task-editor status": {
+    "dictionary": {
+      "New": "Nueva",
+      "ToDo": "Por hacer",
+      "InProgress": "En progreso",
+      "Resolved": "Resuelta",
+      "Review": "En revisión",
+      "Approved": "Aprobada",
+      "Closed": "Hecha"
+    }
+  },
+  "task button-save": "Guardar",
+  "task due-date": {
+    "input": {
+      "date": "Sin fecha"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "task due-date-info": "Fecha límite",
+  "task files": "Archivos adjuntos",
+  "task files add": "Adjuntar",
+  "task files invalid-amount": [
+    {
+      "task files invalid-amount amount": [
+        0
+      ]
+    },
+    "archivos superaban el límite de",
+    {
+      "task files invalid-amount limit": [
+        0
+      ]
+    }
+  ],
+  "task files invalid-amount amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-amount limit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-conjunction": " y ",
+  "task files invalid-conjunction-2": ";\n",
+  "task files invalid-size": [
+    {
+      "task files invalid-size amount": [
+        0
+      ]
+    },
+    "archivos eran más grandes que",
+    {
+      "task files invalid-size limit": [
+        0
+      ]
+    },
+    "MB"
+  ],
+  "task files invalid-size amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-size limit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-title": "Algunos archivos no son válidos",
+  "task files size": [
+    "hasta",
+    {
+      "task files size unit": [
+        20
+      ]
+    },
+    "MB"
+  ],
+  "task files size unit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files valid-amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files valid-conclusion": [
+    "Hay un total de",
+    {
+      "task files valid-amount": [
+        0
+      ]
+    },
+    "archivos válidos restantes."
+  ],
+  "task group-name": {
+    "dictionary": {
+      "tg_exp": "Vencido",
+      "tg_inc": "Bandeja de entrada",
+      "tg_next": "Después",
+      "tg_next7": "Próximos 7 días",
+      "tg_tod": "Hoy",
+      "tg_tom": "Mañana",
+      "tg_without": "Sin fecha"
+    }
+  },
+  "task no files": "Adjuntar archivos",
+  "task plan-cron at": "a las",
+  "task plan-cron day": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-cron month": {
+    "date": {
+      "day": "numeric"
+    }
+  },
+  "task plan-cron repeat-day": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    "a las",
+    {
+      "task plan-cron time": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-day-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-month": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    "el día",
+    {
+      "task plan-cron month": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-month-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-weekday": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    {
+      "task plan-cron weekday": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-weekday-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    },
+    {
+      "task plan-cron weekday": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-year": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    "el",
+    {
+      "task plan-cron year": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-year-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repetition": {
+    "dictionary": {
+      "day": "Cada día,",
+      "month": "Cada mes,",
+      "weekday": "Cada ",
+      "year": "Cada año,"
+    },
+    "input": {
+      "fallback": "Nunca repetir"
+    }
+  },
+  "task plan-cron repetition-day": "Cada día,",
+  "task plan-cron repetition-month": "Cada mes,",
+  "task plan-cron repetition-short": {
+    "dictionary": {
+      "day": "Cada día",
+      "month": "Cada mes",
+      "weekday": "Cada ",
+      "year": "Cada año"
+    },
+    "input": {
+      "fallback": "Nunca repetir"
+    }
+  },
+  "task plan-cron repetition-shortest": {
+    "dictionary": {
+      "day": "D",
+      "month": "M",
+      "weekday": "S",
+      "year": "A"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "task plan-cron repetition-undefined": "Nunca",
+  "task plan-cron repetition-weekday": "Cada ",
+  "task plan-cron repetition-year": "Cada año,",
+  "task plan-cron time": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-cron weekday": {
+    "date": {
+      "weekday": "long"
+    }
+  },
+  "task plan-cron year": {
+    "date": {
+      "day": "numeric",
+      "month": "numeric"
+    }
+  },
+  "task plan-cron-info": "Repetir",
+  "task plan-cron-info time": [
+    "Repetir a las",
+    {
+      "task plan-cron-info time-date": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron-info time-date": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-date": {
+    "input": {
+      "date": "Sin fecha",
+      "today": "Hoy",
+      "tomorrow": "Mañana",
+      "yesterday": "Ayer"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "task plan-date-info": "Fecha planificada",
+  "task project": "Proyecto",
+  "task time": {
+    "input": "",
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "date": ""
+    }
+  },
+  "task-edit page-title": "Editar tarea",
+  "task-editor add-assignee": "Asignar",
+  "task-editor button-create": "Crear",
+  "task-editor contacts-deselect-all": "Deselecctionar todo",
+  "task-editor contacts-select-all": "Selecctionar todo",
+  "task-editor description-more": "más",
+  "task-editor description-placeholder": "Descripción...",
+  "task-editor none": "Ninguna",
+  "task-editor title-placeholder": "Título de la tarea",
+  "task history description view old": "Descripción anterior",
+  "task history description view new": "Descripción nueva",
+  "task history description view copy": "Copiar",
+  "task history description view copied": "Copiado",
+  "task history description view close": "Cerrar",
+  "task history description view": "Mostrar más",
+  "task history": "Historial y comentarios",
+  "task history filter": [
+    "Ver",
+    {
+      "task history filter type": [
+        "todos"
+      ]
+    }
+  ],
+  "task history filter type": {
+    "dictionary": {
+      "all": "todos los eventos",
+      "comment": "solo comentarios",
+      "update": "solo actualizaciones"
+    },
+    "input": {
+      "fallback": "todos los eventos"
+    }
+  },
+  "task history hint": "Responde a un mensaje del bot en el chat del proyecto para dejar un comentario 👌",
+  "task history hint hide": "Entendido, ocultar esto",
+  "task history sort title": "Mostrar:",
+  "task history sort type": {
+    "dictionary": {
+      "new-first": "más nuevo primero ▲",
+      "old-first": "más antiguo primero ▼"
+    }
+  },
+  "task history update": {
+    "dictionary": {
+      "attach": "Adjuntó un archivo",
+      "author": "Cambiado autor",
+      "coassignees": "Actualizados los asignados",
+      "complete": "🟢 Tarea completada",
+      "completedUsersComplete": "🟢 Parte completada",
+      "completedUsersReopen": "⚪ Continúa su trabajo",
+      "create": "Tarea creada",
+      "description": "Descripción actualizada",
+      "detach": "Archivo eliminado",
+      "dueDate": "Fecha de entrega modificada",
+      "planCron": "Recurrencia de tarea modificada",
+      "planDate": "Fecha de planificación modificada",
+      "project": "Movido a otro proyecto",
+      "reopen": "⚪ Tarea reabierta",
+      "title": "Título actualizado"
+    },
+    "input": {
+      "fallback": "Actualización miscelánea de la tarea"
+    }
+  },
+  "task history update empty": "Ninguna",
+  "task history-date": {
+    "input": {
+      "date": "Sin fecha",
+      "today": "Hoy",
+      "tomorrow": "Mañana",
+      "yesterday": "Ayer"
+    },
+    "relative-date": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    }
+  }
+}

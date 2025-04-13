@@ -1,0 +1,6 @@
+LICENSE
+*.md
+**/node_modules
+**/npm-debug.log
+.git
+.vscode

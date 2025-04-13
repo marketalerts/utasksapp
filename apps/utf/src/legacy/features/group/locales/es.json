@@ -1,0 +1,33 @@
+{
+  "group-name": {
+    "input": {
+      "default": "Bandeja de entrada"
+    },
+    "parameter": {
+      "g_all": "Todos",
+      "g_compl": "Completadas",
+      "g_inc": "Bandeja de entrada",
+      "g_next7": "Próximos 7 días",
+      "g_tod": "Hoy",
+      "g_tom": "Mañana"
+    },
+    "processor": {
+      "dictionary": ""
+    }
+  },
+  "list loading": {
+    "input": {
+      "default": "Cargando tareas"
+    },
+    "parameter": {
+      "g_all": "Cargando todas las tareas",
+      "g_inc": "Cargando tareas entrantes",
+      "g_next7": "Cargando tareas para la semana",
+      "g_tod": "Cargando tareas para hoy",
+      "g_tom": "Cargando tareas para mañana"
+    },
+    "processor": {
+      "dictionary": ""
+    }
+  }
+}

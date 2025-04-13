@@ -1,0 +1,85 @@
+{
+  "trial end button": "Stay free",
+  "trial end free-desc": "Your existing tasks and projects which exceed the free plan limits will become readonly, other tasks and projects will retain full functionality",
+  "trial end free-subdesc": [
+    "– You will be unable to create tasks in group projects exceeding the free limit of 2;",
+    "– Unable to create new areas."
+  ],
+  "trial end free-title": "What about my tasks and projects",
+  "trial end plan-desc": {
+    "dictionary": {
+      "FREE": "Continue and accept free plan limitations",
+      "PRO": "Limited time only - get a special offer for the UTasks PRO subscription, closing this window will dismiss the offer",
+      "TRIAL": "Prolong the trial for another two weeks, without PRO ads"
+    }
+  },
+  "trial end subtitle": "We hope you liked it! Please choose your next plan:",
+  "trial end title": "Your PRO trial is over",
+  "trial start button": "Start!",
+  "trial start subtitle": "Enjoy all UTasks PRO benefits without any hassle and see if you like it!",
+  "trial start title": "We're giving you 5 days to try PRO subscription for free",
+
+  "gift redeem activated button": "OK",
+  "gift promocode activated button": "OK",
+  "gift activated subtitle": "This certificate has already been activated!",
+  "gift activated subtitle-2": "Repeated activations are impossible.",
+  "gift activated title": "Already activated",
+  "gift activated already-pro": "Since you already enjoy all benefits of UTasks PRO,",
+  "gift activated complementary": "Here's a complementary banana:",
+  "gift activated benefits": "Get a UTasks PRO subscription or activate a certificate to enjoy all benefits:",
+
+  "gift redeem generic button": "Accept",
+  "gift promocode generic button": "Apply promocode",
+  "gift generic subtitle-author": "Someone",
+  "gift redeem subtitle-bulk": "has gifted you",
+  "gift promocode subtitle-bulk": "has gifted you a discount promocode for",
+  "gift generic subtitle-code": {
+    "dictionary": {
+      "Y": "1 year of UTasks PRO!",
+      "6M": "6 months of UTasks PRO!",
+      "3M": "3 months of UTasks PRO!",
+      "S": "1 month of UTasks PRO!"
+    }
+  },
+  "gift redeem subtitle-2": "After activation, you'll get to enjoy all benefits:",
+  "gift promocode subtitle-2": "After activation, you'll get a discount on UTasks PRO, which allows you to enjoy the following benefits:",
+  "gift generic title": "UTasks PRO",
+  "gift redeem gift button": "Let's work!",
+  "gift promocode gift button": "Let's work!",
+  "gift gift title": "UTasks PRO",
+  "gift redeem birthday button": "Thanks! I accept!",
+  "gift promocode birthday button": "Apply the discount",
+  "gift birthday title": "Happy birthday!",
+
+  "pro benefits": {
+    "dictionary": [
+      "Files!NEW: Adding files: Upload and access files directly within the task",
+      "Command!NEW: Short commands: Manage tasks directly in the group chat, no mini app required",
+      "Avatar!NEW: Private project avatars: Upload and set avatars for personal projects",
+      "People: Multiple assignees: Assign lots of people to any task!",
+      "Folder: More projects: Create more projects without limitations",
+      "Task: Unlimited tasks: Create unlimited tasks in group chats",
+      "Clock: Deadlines for tasks: Set deadlines and ensure timely completion",
+      "PurpleStack: Project areas: Maintain order and easily find desired projects",
+      "Business: Special offer for legal entities: Discounts when buying more than 5 subscriptions at once; we accept direct transfers to our business account. Contact our support for more information."
+    ],
+    "input": {
+      "key": "0"
+    }
+  },
+  "pro benefits links": {
+    "dictionary": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "input": {
+      "key": "0"
+    }
+  }
+}

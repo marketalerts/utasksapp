@@ -1,0 +1,119 @@
+{
+  "setting apply-defaults": "Apply defaults",
+  "setting id": {
+    "dictionary": {
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION": "Display dynamic sections",
+      "CLIENT_TIMECYCLE_OPTIONS": "Hour cycle",
+      "CLIENT_NEWS_TOGGLE": "Display news",
+      "CLIENT_GEAR_TOGGLE": "Project settings gear link",
+      "USER_EVENTS": "Inbox notifications",
+      "USER_LANGUAGE": "Language",
+      "USER_TIMEZONE": "Time zone",
+      "PR_EVENTS": "Event notifications",
+      "PR_LANGUAGE": "Notification language",
+      "PR_TIMEZONE": "Notifications time zone",
+      "PR_USER_EVENTS": "Personal notifications",
+      "PR_USER_TASKS_USERSONLY": "Filter tasks"
+    }
+  },
+  "setting id-description": {
+    "dictionary": {
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION": "Choose which sections to keep on your homepage",
+      "CLIENT_GEAR_TOGGLE": "Where the gear icon links to, from the group project page",
+      "CLIENT_NEWS_TOGGLE": "section on homepage",
+      "USER_EVENTS": "Choose which types of inbox events the bot should send notifications about",
+      "PR_EVENTS": "Choose which types of events the bot should send notifications about to the group chat",
+      "PR_LANGUAGE": "Change the language of notification messages the bot sends to the group chat",
+      "PR_TIMEZONE": "All dates in group chat messages will be displayed relative to this timezone",
+      "PR_USER_EVENTS": "Choose which task notifications to recieve from the bot directly",
+      "PR_USER_TASKS_USERSONLY": "Choose which tasks you can see in the project task list"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "setting rollback": "↶ Reset to initial",
+  "setting section": {
+    "dictionary": {
+      "collaborative": "Collaborative",
+      "display": "Notifications display",
+      "notifications": "Notifications",
+      "personal": "Personal",
+      "inbox": "Inbox settings",
+      "app": "Application settings",
+      "app-display": "Display settings"
+    }
+  },
+  "setting section-description": {
+    "dictionary": {
+      "notifications": "Customize how and when the bot sends notification messages to the group chat"
+    }
+  },
+  "setting toggle-all": {
+    "dictionary": {
+      "false": "Disable All",
+      "true": "Enable All"
+    }
+  },
+  "setting toggle-text": {
+    "dictionary": {
+      "CLIENT_GEAR_TOGGLE_ENABLED": "Settings",
+      "CLIENT_GEAR_TOGGLE_DISABLED": "Info",
+      "PR_USER_TASKS_USERSONLY_DISABLED": "All tasks",
+      "PR_USER_TASKS_USERSONLY_ENABLED": "Only mine",
+      "CLIENT_TIMECYCLE_UNDEFINED": "Default",
+      "CLIENT_TIMECYCLE_H11": "00:00AM - 11:59PM",
+      "CLIENT_TIMECYCLE_H12": "01:00AM - 12:59PM",
+      "CLIENT_TIMECYCLE_H23": "00:00 - 23:59",
+      "CLIENT_TIMECYCLE_H24": "01:00 - 24:59",
+
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_ALL": "All",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_COMPL": "Completed",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_NEXT7": "Next 7 Days",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_TOD": "Today",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_TOM": "Tomorrow",
+
+      "completeEvent": "On task complete",
+      "createEvent": "On task create",
+      "deleteEvent": "On task delete",
+      "editEvent": "On task edit",
+      "uncompleteEvent": "On task reopen",
+      "notifyEvent": "On timed notification"
+    }
+  },
+  "setting toggle-text-description": {
+    "dictionary": {
+      "CLIENT_GEAR_TOGGLE_ENABLED": "Directly to project settings",
+      "CLIENT_GEAR_TOGGLE_DISABLED": "To the project info page, where project settings can then be accessed",
+      "PR_USER_TASKS_USERSONLY_DISABLED": "All project tasks are available to you",
+      "PR_USER_TASKS_USERSONLY_ENABLED": "You can access only the tasks you participate in (as author or assignee)",
+      "completeEvent": "🟢 #done",
+      "createEvent": "⚪️ #new",
+      "deleteEvent": "🔴 #delete",
+      "editEvent": "🟡 #change",
+      "uncompleteEvent": "⚪️ #reopen",
+      "notifyEvent": "⏰ time is now"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "setting value-boolean": {
+    "dictionary": {
+      "false": "Off",
+      "true": "On"
+    },
+    "input": {
+      "fallback": "Mixed"
+    }
+  },
+  "setting value-task-visibility": {
+    "dictionary": {
+      "false": "All",
+      "true": "Only mine"
+    },
+    "input": {
+      "fallback": ""
+    }
+  }
+}

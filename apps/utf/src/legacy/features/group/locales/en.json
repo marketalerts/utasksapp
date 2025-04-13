@@ -1,0 +1,33 @@
+{
+  "group-name": {
+    "input": {
+      "default": "Inbox"
+    },
+    "parameter": {
+      "g_all": "All",
+      "g_compl": "Completed",
+      "g_inc": "Inbox",
+      "g_next7": "Next 7 Days",
+      "g_tod": "Today",
+      "g_tom": "Tomorrow"
+    },
+    "processor": {
+      "dictionary": ""
+    }
+  },
+  "list loading": {
+    "input": {
+      "default": "Loading tasks"
+    },
+    "parameter": {
+      "g_all": "Loading all tasks",
+      "g_inc": "Loading incoming tasks",
+      "g_next7": "Loading tasks for the week",
+      "g_tod": "Loading tasks for today",
+      "g_tom": "Loading tasks for tomorrow"
+    },
+    "processor": {
+      "dictionary": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$ref": "https://unpkg.com/intl-schematic/translation.schema.json",
+  "additionalProperties": {
+    "anyOf": [
+      {
+        "$ref": "https://unpkg.com/intl-schematic/property.schema.json"
+      },
+      {
+        "$ref": "https://unpkg.com/@intl-schematic/plugin-processors/property.schema.json"
+      },
+      {
+        "$ref": "https://unpkg.com/@intl-schematic/plugin-arrays/property.schema.json"
+      }
+    ]
+  }
+}

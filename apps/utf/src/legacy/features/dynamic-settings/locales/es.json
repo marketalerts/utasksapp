@@ -1,0 +1,117 @@
+{
+  "setting apply-defaults": "Aplicar valores predeterminados",
+  "setting id": {
+    "dictionary": {
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION": "Mostrar secciones dinámicas",
+      "CLIENT_TIMECYCLE_OPTIONS": "Ciclo de hora",
+      "CLIENT_NEWS_TOGGLE": "Mostrar noticias",
+      "CLIENT_GEAR_TOGGLE": "Enlace a configuración del proyecto",
+      "USER_EVENTS": "Notificaciones de bandeja de entrada",
+      "USER_LANGUAGE": "Idioma",
+      "USER_TIMEZONE": "Zona horaria",
+      "PR_EVENTS": "Notificaciones de eventos",
+      "PR_LANGUAGE": "Idioma de notificación",
+      "PR_TIMEZONE": "Zona horaria de notificaciones",
+      "PR_USER_EVENTS": "Notificaciones personales",
+      "PR_USER_TASKS_USERSONLY": "Filtrar tareas"
+    }
+  },
+  "setting id-description": {
+    "dictionary": {
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION": "Elige qué secciones mantener en tu página de inicio",
+      "CLIENT_GEAR_TOGGLE": "A dónde enlaza el icono de engranaje desde la página del proyecto del grupo",
+      "CLIENT_NEWS_TOGGLE": "Sección en la página de inicio",
+      "USER_EVENTS": "Elige de qué tipos de eventos de bandeja de entrada debe enviar notificaciones el bot",
+      "PR_EVENTS": "Elige de qué tipos de eventos debe enviar notificaciones el bot al chat del grupo",
+      "PR_LANGUAGE": "Cambia el idioma de los mensajes de notificación que el bot envía al chat del grupo",
+      "PR_TIMEZONE": "Todas las fechas en los mensajes del chat del grupo se mostrarán en relación con esta zona horaria",
+      "PR_USER_EVENTS": "Elige qué notificaciones de tareas recibir directamente del bot",
+      "PR_USER_TASKS_USERSONLY": "Elija qué tareas puede ver en la lista de tareas del proyecto"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "setting rollback": "↶ Restablecer a inicial",
+  "setting section": {
+    "dictionary": {
+      "collaborative": "Colaborativo",
+      "display": "Mostrar notificaciones",
+      "notifications": "Notificaciones",
+      "personal": "Personal",
+      "inbox": "Configuraciones de bandeja de entrada",
+      "app": "Configuraciones de aplicación",
+      "app-display": "Configuraciones de pantalla"
+    }
+  },
+  "setting section-description": {
+    "dictionary": {
+      "notifications": "Personaliza cómo y cuándo el bot envía mensajes de notificación al chat del grupo"
+    }
+  },
+  "setting toggle-all": {
+    "dictionary": {
+      "false": "Desactivar todo",
+      "true": "Activar todo"
+    }
+  },
+  "setting toggle-text": {
+    "dictionary": {
+      "CLIENT_GEAR_TOGGLE_ENABLED": "Configuraciones",
+      "CLIENT_GEAR_TOGGLE_DISABLED": "Información",
+      "PR_USER_TASKS_USERSONLY_DISABLED": "Todas las tareas",
+      "PR_USER_TASKS_USERSONLY_ENABLED": "Solo las mías",
+      "CLIENT_TIMECYCLE_UNDEFINED": "Sistema",
+      "CLIENT_TIMECYCLE_H11": "00:00AM - 11:59PM",
+      "CLIENT_TIMECYCLE_H12": "01:00AM - 12:59PM",
+      "CLIENT_TIMECYCLE_H23": "00:00 - 23:59",
+      "CLIENT_TIMECYCLE_H24": "01:00 - 24:59",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_ALL": "Todo",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_COMPL": "Completado",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_NEXT7": "Próximos 7 días",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_TOD": "Hoy",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_TOM": "Mañana",
+      "completeEvent": "Al completar tarea",
+      "createEvent": "Al crear tarea",
+      "deleteEvent": "Al eliminar tarea",
+      "editEvent": "Al editar tarea",
+      "uncompleteEvent": "Al reabrir tarea",
+      "notifyEvent": "En notificación programada"
+    }
+  },
+  "setting toggle-text-description": {
+    "dictionary": {
+      "CLIENT_GEAR_TOGGLE_ENABLED": "Directamente a configuraciones del proyecto",
+      "CLIENT_GEAR_TOGGLE_DISABLED": "A la página de información del proyecto, donde se puede acceder a configuraciones del proyecto",
+      "PR_USER_TASKS_USERSONLY_DISABLED": "Todas las tareas del proyecto son visibles para ti",
+      "PR_USER_TASKS_USERSONLY_ENABLED": "Solo ves las tareas en las que participas (como autor o asignado)",
+      "completeEvent": "🟢 #done",
+      "createEvent": "⚪️ #new",
+      "deleteEvent": "🔴 #delete",
+      "editEvent": "🟡 #change",
+      "uncompleteEvent": "⚪️ #reopen",
+      "notifyEvent": "⏰ ¡Es la hora!"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "setting value-boolean": {
+    "dictionary": {
+      "false": "Apagado",
+      "true": "Encendido"
+    },
+    "input": {
+      "fallback": "Mixto"
+    }
+  },
+  "setting value-task-visibility": {
+    "dictionary": {
+      "false": "Todos",
+      "true": "Solo mías"
+    },
+    "input": {
+      "fallback": ""
+    }
+  }
+}

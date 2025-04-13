@@ -1,0 +1,78 @@
+name: Build and generate test version tag
+
+on:
+  workflow_call:
+    outputs:
+      tag:
+        value: v${{ jobs.dev.outputs.version }}
+        description: A new version tag generated via npm
+      version:
+        value: ${{ jobs.dev.outputs.version }}
+        description: A new package version as seen in package.json, generated via npm
+
+jobs:
+  dev:
+    runs-on: ubuntu-22.04
+    outputs:
+      version: ${{ steps.version.outputs.current-version }}
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.ref }}
+
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 20.x
+        cache: 'npm'
+
+    - run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "a.raiondesu@gmail.com"
+
+    - run: npm ci --omit=optional -w utf
+    - run: npm i --no-save cross-env
+
+    - name: Read SemVer
+      uses: actions-ecosystem/action-release-label@955bf130fba6be3d99d2c14457d0dc7f176bc563
+      id: release
+      with:
+        labels:
+          hotfix
+          patch
+          minor
+          major
+
+    - name: Read package.json
+      uses: martinbeentjes/npm-get-version-action@v1.3.1
+      id: package
+
+    - name: Hotfix
+      run: npm run hotfix
+      if: ${{ steps.release.outputs.level == 'hotfix' }}
+
+    - name: Pre existing release
+      run: npm run prerelease
+      if: ${{ steps.release.outputs.level != 'hotfix' && contains(steps.package.outputs.current-version, '-proto.') }}
+
+    - name: Pre new release
+      run: npm run pre-${{ steps.release.outputs.level || 'patch' }}
+      if: ${{ steps.release.outputs.level != 'hotfix' && !contains(steps.package.outputs.current-version, '-proto.') }}
+
+    - name: Save new version
+      uses: martinbeentjes/npm-get-version-action@v1.3.1
+      id: version
+
+    - run: npm run build-dev
+
+    - name: Add & Commit
+      uses: EndBug/add-and-commit@v9.1.4
+      with:
+        message: ${{ steps.version.outputs.current-version }}
+        tag: 'v${{ steps.version.outputs.current-version }}'
+
+    - name: Push
+      uses: ad-m/github-push-action@v0.8.0
+      with:
+        github_token: ${{ secrets.GIT_PAT }}
+        branch: ${{ github.event.pull_request.head.ref }}

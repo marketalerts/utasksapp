@@ -1,0 +1,40 @@
+{
+  "name": "utasksfront",
+  "version": "1.19.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "npm@10.1.0",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "lint": "oxlint",
+    "build": "npm run build -w apps/utf",
+    "build-dev": "npm run build-dev -w apps/utf",
+    "build-docs": "npm run build -w apps/docs",
+    "dev": "npm run dev -w apps/utf",
+    "docs": "npm run dev -w apps/docs",
+    "update-schema": "npm run build:schema -w packages/intl-schematic",
+    "version": "npm version $npm_package_version --no-git-tag-version -w apps/utf && git add **/package*.json",
+    "prerelease": "npm version prerelease --preid=proto --no-git-tag-version",
+    "pre-patch": "npm version prerelease --preid=proto --no-git-tag-version",
+    "pre-minor": "npm version preminor --preid=proto --no-git-tag-version",
+    "pre-major": "npm version premajor --preid=proto --no-git-tag-version",
+    "patch": "npm version patch --no-git-tag-version",
+    "minor": "npm version minor --no-git-tag-version",
+    "major": "npm version major --no-git-tag-version"
+  },
+  "optionalDependencies": {
+    "@types/node": "^20.8.6",
+    "openapi-typescript": "^7.0.4",
+    "turbo": "^1.10.15",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@sentry/cli": "^2.31.0"
+  }
+}

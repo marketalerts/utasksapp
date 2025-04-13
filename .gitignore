@@ -1,0 +1,40 @@
+.env.*.local
+
+# *dist
+.solid
+.vinxi
+*.vinxi
+**/.vinxi
+**/.output/public/_server
+**/.output/server
+**/.output/nitro.json
+.vercel
+.turbo
+.netlify
+netlify
+
+# dependencies
+/node_modules
+/**/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+
+# Temp
+gitignore
+
+# System Files
+.DS_Store
+Thumbs.db
+
+*.timestamp*
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+# Sentry Config File
+.sentryclirc

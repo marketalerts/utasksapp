@@ -1,0 +1,388 @@
+{
+  "radius": {
+    "full-radius": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 100
+    },
+    "large-radius": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 16
+    },
+    "medium-radius": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 12
+    },
+    "section-radius": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 0
+    },
+    "small-radius": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 8
+    },
+    "xlarge-radius": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 20
+    },
+    "xsmall-radius": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 6
+    }
+  },
+  "size": {
+    "bottom-bar-button-height": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 48
+    },
+    "bottom-bar-height": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 0
+    },
+    "home-bar-height": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 24
+    },
+    "layout-indent": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 0
+    },
+    "medium-indent": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 8
+    },
+    "section-indent": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 20
+    },
+    "screen-height": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 800
+    },
+    "screen-width": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 360
+    },
+    "small-indent": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 4
+    },
+    "small-row-height": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 40
+    },
+    "status-bar-height": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 38
+    },
+    "xsmall-indent": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": 2
+    }
+  },
+  "typography": {
+    "font-family": {
+      "attributes": {
+        "type": "font-family",
+        "category": "font"
+      },
+      "value": "Roboto"
+    },
+    "font-size": {
+      "display-medium": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 42
+      },
+      "headline-medium": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 28
+      },
+      "headline-small": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 24
+      },
+      "title-large": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 22
+      },
+      "title-medium": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 20
+      },
+      "title-small": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 18
+      },
+      "body-large": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 16
+      },
+      "body-medium": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 14
+      },
+      "label-large": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 13
+      },
+      "label-medium": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 12
+      },
+      "label-small": {
+        "attributes": {
+          "type": "font-size",
+          "category": "size"
+        },
+        "value": 11
+      }
+    },
+    "font-weight": {
+      "bold": {
+        "attributes": {
+          "type": "font-weight"
+        },
+        "value": 700
+      },
+      "semibold": {
+        "attributes": {
+          "type": "font-weight"
+        },
+        "value": 600
+      },
+      "medium": {
+        "attributes": {
+          "type": "font-weight"
+        },
+        "value": 500
+      },
+      "regular": {
+        "attributes": {
+          "type": "font-weight"
+        },
+        "value": 400
+      }
+    },
+    "letter-spacing": {
+      "display-medium": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      },
+      "headline-medium": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      },
+      "headline-small": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      },
+      "title-large": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      },
+      "title-medium": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      },
+      "title-small": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      },
+      "body-large": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      },
+      "body-medium": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      },
+      "label-large": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      },
+      "label-medium": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      },
+      "label-small": {
+        "attributes": {
+          "type": "letter-spacing"
+        },
+        "value": 0
+      }
+    },
+    "line-height": {
+      "display-medium": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 48
+      },
+      "headline-medium": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 36
+      },
+      "headline-small": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 32
+      },
+      "title-large": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 28
+      },
+      "title-medium": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 24
+      },
+      "title-small": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 22
+      },
+      "body-large-s": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 20
+      },
+      "body-large-l": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 24
+      },
+      "body-medium": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 18
+      },
+      "label-large": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 18
+      },
+      "label-medium": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 16
+      },
+      "label-small": {
+        "attributes": {
+          "type": "line-height",
+          "category": "size"
+        },
+        "value": 14
+      }
+    }
+  }
+}

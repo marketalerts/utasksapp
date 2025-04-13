@@ -1,0 +1,20 @@
+include:
+  - project: "utasksbot/devops"
+    ref: main
+    file: "gitlab-pipelines/projects/unified.yml"
+
+.pipeline-config:
+  deploy:
+    blue_green: "true"
+
+get-commit-sha:
+  rules:
+    - when: never
+
+build-sandbox:
+  rules:
+    - when: never
+
+deploy-to-sandbox:
+  rules:
+    - when: never

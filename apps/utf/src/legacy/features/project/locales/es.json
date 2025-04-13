@@ -1,0 +1,61 @@
+{
+  "avatar section": "Avatar del proyecto",
+  "delete avatar": "Eliminar imagen",
+  "delete button-text": "Eliminar proyecto",
+  "delete confirm": "Si eliminas un proyecto, perderás todas las tareas en él. ¿Eliminar el proyecto?",
+  "delete area confirm": "Si eliminas el área, todos los proyectos quedarán desorganizados, pero tus tareas permanecerán intactas. ¿Estás seguro?",
+  "delete error": "Hubo un error al eliminar el proyecto",
+  "delete public": "Tendrás que abandonar el chat de este proyecto para eliminarlo de la lista.",
+  "empty-list desc": "Añade nuevas tareas a través del botón de creación rápida o abre un formulario completo de creación de tareas",
+  "empty-list title": "¡Todo bien!",
+  "hide-completed": "Ocultar completadas",
+  "internal link": {
+    "dictionary": {
+      "settings": "Configuración del proyecto"
+    }
+  },
+  "limit-exceeded desc": "Obtén UTasks Pro para crear tareas libremente en proyectos grupales ilimitados",
+  "limit-exceeded title": "Límite gratuito de proyectos excedido",
+  "list loading": "Cargando tareas",
+  "members": {
+    "input": 0,
+    "parameter": {
+      "one": "miembro",
+      "other": "miembros"
+    },
+    "processor": {
+      "plural": ""
+    }
+  },
+  "members literal": "Miembros",
+  "rename text": "Nombre del proyecto",
+  "rename area text": "Nombre del área",
+  "delete area button-text": "Eliminar área",
+  "rename text-placeholder": "Proyecto personal",
+  "save changes": "Guardar cambios",
+  "show-completed": "Mostrar completadas",
+  "subtitle private": "Proyecto personal",
+  "subtitle public": [
+    "0:members",
+    {
+      "members": [
+        0
+      ]
+    }
+  ],
+  "task-counter": {
+    "input": {
+      "default": "Todas"
+    },
+    "parameter": {
+      "all": "Todas",
+      "assignee": "Asignadas",
+      "author": "Autor"
+    },
+    "processor": {
+      "dictionary": ""
+    }
+  },
+  "update avatar": "Actualizar imagen",
+  "upload avatar": "Subir imagen"
+}

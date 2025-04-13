@@ -1,0 +1,17 @@
+{
+  "name": "vite-plugin-dynamic-import-json",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index",
+  "types": "index",
+  "type":"module",
+  "scripts": {
+    "dev": "echo 'Add dev script here'",
+    "build": "echo 'Add build script here'",
+    "test": "echo 'Add test script here'",
+    "lint": "echo 'Add lint script here'"
+  },
+  "devDependencies": {
+    "vite": "^4.4.11"
+  }
+}

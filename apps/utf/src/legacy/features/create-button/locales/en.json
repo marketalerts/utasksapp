@@ -1,0 +1,116 @@
+{
+  "datepicker accept": "Accept",
+  "datepicker cancel": "Cancel",
+  "datepicker clear": "Clear",
+  "datepicker time": "Set specific time",
+  "edit-area save": "Save",
+  "edit-project info": "Here you can change the name of the project",
+  "edit-project input-desc": "Project description",
+  "edit-project input-title": "Project title",
+  "edit-project save": "Save",
+  "multiassignee benefit-desc": "Assign lots of people to any task with UTasks PRO!",
+  "multiassignee benefit-title": "Multiple assignees with UTasks PRO",
+  "new-area create": "Create area",
+  "new-area desc": "A collection of projects with one theme - like \"Family\" or \"Work\"",
+  "new-area info": "Drag a project into an area to keep multiple related projects in one place",
+  "new-area input-title": "New project title",
+  "new-area title": "New area",
+  "new-project create": "Create project",
+  "new-project desc": "Create a collection for tasks that all aim towards the same goal",
+  "new-project info": "Tasks can be added in the project itself after its creaton",
+  "new-project input-desc": "New project description",
+  "new-project input-title": "New project title",
+  "new-project title": "New project",
+  "new-project-public desc": "A collaborative project is created by adding the bot to a Telegram group",
+  "new-project-public error-title": "There was an error creating the project",
+  "new-project-public title": "Add to group chat",
+  "new-task contacts-remove-assignee-title": "Remove assignee",
+  "new-task contacts-save": "Apply",
+  "new-task contacts-search-placeholder": "Search",
+  "new-task contacts-title": "Contacts",
+  "new-task create": "Create task",
+  "new-task deadline": [
+    "Task will be due",
+    {
+      "new-task input-date": {
+        "date": "whenever you want",
+        "today": "today",
+        "tomorrow": "tomorrow",
+        "yesterday": "yesterday"
+      }
+    }
+  ],
+  "new-task desc": "Quickly add a task to \"Incoming\" or to a custom project",
+  "new-task input-add-assignee": "add assignee",
+  "new-task input-date": {
+    "input": {
+      "date": "No planned date",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "yesterday": "Yesterday"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "month": "2-digit",
+      "year": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-date-time": {
+    "input": {
+      "date": "No planned date"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "2-digit",
+      "year": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-desc": [
+    "new-task title",
+    "description"
+  ],
+  "new-task input-due-date": {
+    "input": {
+      "date": "No deadline"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "month": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-due-date-time": {
+    "input": {
+      "date": "No deadline"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-title": [
+    "new-task title",
+    "title"
+  ],
+  "new-task past-date": "Attention: the task will be overdue as soon as it is created, because the selected date is in the past",
+  "new-task title": "New task",
+  "platform warning": "This feature is not supported on this platform at the moment. Please, try again later.",
+  "user add-bot action": "Add bot",
+  "user add-bot description": "To use the app properly, please press the 'start' button in your personal chat with the bot",
+  "user add-bot title": "Please add the bot to your chats"
+}

@@ -1,0 +1,475 @@
+{
+  "delete button-text": "Delete",
+  "delete confirm": "Deleting a task cannot be undone. Delete?",
+  "delete error": "There was an error deleting the task",
+  "discuss button-text": "Discuss",
+  "ical button-text": "Add to calendar",
+  "task assignee": "Assignees",
+  "task author": "Author",
+  "task button-cancel": "Cancel",
+  "task button-save": "Save",
+  "task due-date": {
+    "input": {
+      "date": "No date"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "task due-date-info": "Date due",
+  "task files": "Attached files",
+  "task files add": "Attach",
+  "task files download-error": "There was an error downloading the file, it may have been too big",
+  "task files download-error message-link": "Show in chat",
+  "task files download-error retry": "Retry",
+  "task files invalid-amount": [
+    {
+      "task files invalid-amount amount": [
+        0
+      ]
+    },
+    "files were over the limit of",
+    {
+      "task files invalid-amount limit": [
+        0
+      ]
+    }
+  ],
+  "task files invalid-amount amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-amount limit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-conjunction": " and ",
+  "task files invalid-conjunction-2": ";\n",
+  "task files invalid-size": [
+    {
+      "task files invalid-size amount": [
+        0
+      ]
+    },
+    "files were bigger than",
+    {
+      "task files invalid-size limit": [
+        0
+      ]
+    },
+    "MB"
+  ],
+  "task files invalid-size amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-size limit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files invalid-title": "Some files were invalid",
+  "task files size": [
+    "up to",
+    {
+      "task files size unit": [
+        20
+      ]
+    },
+    "MB"
+  ],
+  "task files size unit": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files valid-amount": {
+    "number": {
+      "style": "decimal"
+    }
+  },
+  "task files valid-conclusion": [
+    "There are a total of",
+    {
+      "task files valid-amount": [
+        0
+      ]
+    },
+    "valid files left."
+  ],
+  "task group-name": {
+    "dictionary": {
+      "tg_exp": "Overdue",
+      "tg_inc": "Inbox",
+      "tg_next": "Later",
+      "tg_next7": "Next 7 Days",
+      "tg_tod": "Today",
+      "tg_tom": "Tomorrow",
+      "tg_without": "No date"
+    }
+  },
+  "task history": "History and comments",
+  "task history description view": "Show more",
+  "task history description view close": "Close",
+  "task history description view copied": "Copied!",
+  "task history description view copy": "Copy",
+  "task history description view new": "New description",
+  "task history description view old": "Old description",
+  "task history filter": [
+    "See",
+    {
+      "task history filter type": [
+        "all"
+      ]
+    }
+  ],
+  "task history filter type": {
+    "dictionary": {
+      "all": "all events",
+      "comment": "only comments",
+      "update": "only updates"
+    },
+    "input": {
+      "fallback": "all events"
+    }
+  },
+  "task history hint": "Reply to a message from the bot in your project's group chat to leave a comment",
+  "task history hint hide": "Got it, hide this",
+  "task history sort title": "Show:",
+  "task history sort type": {
+    "dictionary": {
+      "new-first": "new first ▲",
+      "old-first": "old first ▼"
+    }
+  },
+  "task history update": {
+    "dictionary": {
+      "attach": "Attached a file",
+      "author": "Changed author",
+      "coassignees": "Updated assignees",
+      "complete": "🟢 Completed the task",
+      "completedUsersComplete": "🟢 Done their part",
+      "completedUsersReopen": "⚪ Continues their work",
+      "create": "Task created",
+      "description": "Updated description",
+      "detach": "Removed a file",
+      "dueDate": "Changed due date",
+      "dueDateNotifications": "Changed deadline notifications",
+      "planCron": "Changed task recurrence",
+      "planDate": "Changed plan date",
+      "planDateNotifications": "Changed date notifications",
+      "project": "Moved to another project",
+      "reopen": "⚪ Reopened the task",
+      "title": "Updated title"
+    },
+    "input": {
+      "fallback": "Misc task update"
+    }
+  },
+  "task history update empty": "None",
+  "task history-date": {
+    "input": {
+      "date": "No date",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "yesterday": "Yesterday"
+    },
+    "relative-date": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    }
+  },
+  "task no files": "Attach files",
+  "task plan-cron at": "at",
+  "task plan-cron day": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-cron month": {
+    "date": {
+      "day": "numeric"
+    }
+  },
+  "task plan-cron repeat-day": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    "at",
+    {
+      "task plan-cron time": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-day-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-mon-fri": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    },
+    {
+      "task plan-cron at": [
+        0
+      ]
+    },
+    {
+      "task plan-cron time": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-mon-fri-short": "Mon-Fri",
+  "task plan-cron repeat-month": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    "on day",
+    {
+      "task plan-cron month": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-month-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-undefined": [
+    {
+      "task plan-cron repetition": [
+        "Never repeat"
+      ]
+    }
+  ],
+  "task plan-cron repeat-undefined-short": [
+    {
+      "task plan-cron repetition-short": [
+        "Never"
+      ]
+    }
+  ],
+  "task plan-cron repeat-weekday": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    {
+      "task plan-cron weekday": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-weekday-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    },
+    {
+      "task plan-cron weekday": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-year": [
+    {
+      "task plan-cron repetition": [
+        0
+      ]
+    },
+    "on",
+    {
+      "task plan-cron year": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repeat-year-short": [
+    {
+      "task plan-cron repetition-short": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron repetition": {
+    "dictionary": {
+      "day": "Every day,",
+      "mon-fri": "Weekly, Monday thru Friday",
+      "month": "Every month,",
+      "weekday": "Every ",
+      "year": "Every year,"
+    },
+    "input": {
+      "fallback": "Never repeat"
+    }
+  },
+  "task plan-cron repetition-day": "Every day,",
+  "task plan-cron repetition-mon-fri": "Monday thru Friday",
+  "task plan-cron repetition-month": "Every month,",
+  "task plan-cron repetition-short": {
+    "dictionary": {
+      "day": "Every day",
+      "mon-fri": "Weekly, Monday thru Friday",
+      "month": "Every month",
+      "weekday": "Every ",
+      "year": "Every year"
+    },
+    "input": {
+      "fallback": "Never repeat"
+    }
+  },
+  "task plan-cron repetition-shortest": {
+    "dictionary": {
+      "day": "D",
+      "mon-fri": "WW",
+      "month": "M",
+      "weekday": "W",
+      "year": "Y"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "task plan-cron repetition-undefined": "Never",
+  "task plan-cron repetition-weekday": "Every ",
+  "task plan-cron repetition-year": "Every year,",
+  "task plan-cron time": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-cron weekday": {
+    "date": {
+      "weekday": "long"
+    }
+  },
+  "task plan-cron year": {
+    "date": {
+      "day": "numeric",
+      "month": "numeric"
+    }
+  },
+  "task plan-cron-info": "Repeat",
+  "task plan-cron-info time": [
+    "Repeat at",
+    {
+      "task plan-cron-info time-date": [
+        0
+      ]
+    }
+  ],
+  "task plan-cron-info time-date": {
+    "date": {
+      "hour": "2-digit",
+      "minute": "2-digit"
+    }
+  },
+  "task plan-date": {
+    "input": {
+      "date": "No date",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "yesterday": "Yesterday"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "task plan-date-info": "Date planned",
+  "task project": "Project",
+  "task time": {
+    "input": "",
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "short"
+    },
+    "processor": {
+      "date": ""
+    }
+  },
+  "task time-info": "Time",
+  "task-edit page-title": "Edit Task",
+  "task-editor add-assignee": "Assign",
+  "task-editor button-create": "Create",
+  "task-editor checklist-placeholder": "сhecklist",
+  "task-editor contacts-deselect-all": "Deselect all",
+  "task-editor contacts-select-all": "Select all",
+  "task-editor description-more": "more",
+  "task-editor description-placeholder": "Description…",
+  "task-editor no-date": "No date",
+  "task-editor none": "None",
+  "task-editor notification": [
+    "task-editor notification-prefix",
+    { "task-editor notification-value": [0] }
+  ],
+  "task-editor notification-immediate": "At set time",
+  "task-editor notification-prefix": "",
+  "task-editor notification-value": {
+    "number": {
+      "maximumFractionDigits": 0,
+      "roundingMode": "floor",
+      "style": "unit",
+      "unitDisplay": "long"
+    }
+  },
+  "task-editor notifications-info": "Notify",
+  "task-editor priority": {
+    "dictionary": {
+      "High": "High",
+      "Highest": "Highest",
+      "Low": "Low",
+      "Lowest": "Lowest",
+      "Medium": "Medium",
+      "None": "None"
+    }
+  },
+  "task-editor status": {
+    "dictionary": {
+      "Approved": "Approved",
+      "Closed": "Closed/Done",
+      "InProgress": "In progress",
+      "New": "New",
+      "Resolved": "Resolved",
+      "Review": "In review",
+      "ToDo": "To Do"
+    }
+  },
+  "task-editor title-placeholder": "Task title"
+}

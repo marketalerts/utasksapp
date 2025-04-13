@@ -1,0 +1,116 @@
+{
+  "datepicker accept": "Aceptar",
+  "datepicker cancel": "Cancelar",
+  "datepicker clear": "Limpiar",
+  "datepicker time": "Establecer hora específica",
+  "edit-area save": "Guardar",
+  "edit-project info": "Aquí puedes cambiar el nombre del proyecto",
+  "edit-project input-desc": "Descripción del proyecto",
+  "edit-project input-title": "Título del proyecto",
+  "edit-project save": "Guardar",
+  "multiassignee benefit-desc": "¡Asigna a muchas personas a cualquier tarea!",
+  "multiassignee benefit-title": "Múltiples asignados: UTasks PRO",
+  "new-area create": "Crear área",
+  "new-area desc": "Una colección de proyectos con un tema, como \"Familia\" o \"Trabajo\"",
+  "new-area info": "Arrastra un proyecto a una área para mantener varios proyectos relacionados en un solo lugar",
+  "new-area input-title": "Título del nuevo proyecto",
+  "new-area title": "Nueva área",
+  "new-project create": "Crear proyecto",
+  "new-project desc": "Crea una colección de tareas que apuntan hacia el mismo objetivo",
+  "new-project info": "Las tareas se pueden agregar al proyecto después de su creación",
+  "new-project input-desc": "Descripción del nuevo proyecto",
+  "new-project input-title": "Título del nuevo proyecto",
+  "new-project title": "Nuevo proyecto",
+  "new-project-public desc": "Añade un bot a tu chat de grupo de Telegram para crear un proyecto grupal",
+  "new-project-public error-title": "Hubo un error al crear el proyecto",
+  "new-project-public title": "Añadir a chat de grupo",
+  "new-task contacts-remove-assignee-title": "Eliminar asignado",
+  "new-task contacts-save": "Applicar",
+  "new-task contacts-search-placeholder": "Buscar",
+  "new-task contacts-title": "Contactos",
+  "new-task create": "Crear tarea",
+  "new-task deadline": [
+    "La tarea vencerá",
+    {
+      "new-task input-date": {
+        "date": "cuando quieras",
+        "today": "hoy",
+        "tomorrow": "mañana",
+        "yesterday": "ayer"
+      }
+    }
+  ],
+  "new-task desc": "Añade rápidamente una tarea a \"Bandeja de entrada\" o a un proyecto personalizado",
+  "new-task input-add-assignee": "añadir asignado",
+  "new-task input-date": {
+    "input": {
+      "date": "Sin fecha planificada",
+      "today": "Hoy",
+      "tomorrow": "Mañana",
+      "yesterday": "Ayer"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "month": "2-digit",
+      "year": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-date-time": {
+    "input": {
+      "date": "Sin fecha planificada"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "2-digit",
+      "year": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-desc": [
+    "new-task title",
+    "description"
+  ],
+  "new-task input-due-date": {
+    "input": {
+      "date": "Sin plazo"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "month": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-due-date-time": {
+    "input": {
+      "date": "Sin plazo"
+    },
+    "parameter": {
+      "day": "2-digit",
+      "hour": "2-digit",
+      "minute": "2-digit",
+      "month": "2-digit"
+    },
+    "processor": {
+      "relative-date": ""
+    }
+  },
+  "new-task input-title": [
+    "new-task title",
+    "title"
+  ],
+  "new-task past-date": "Atención: la tarea estará vencida tan pronto como se cree, porque la fecha seleccionada está en el pasado",
+  "new-task title": "Nueva tarea",
+  "platform warning": "Esta función no está soportada en esta plataforma en este momento. Por favor, inténtalo nuevamente más tarde.",
+  "user add-bot action": "Agregar bot",
+  "user add-bot description": "Para usar la aplicación correctamente, por favor presiona el botón 'start' en tu chat personal con el bot",
+  "user add-bot title": "Por favor, agrega el bot a tus chats"
+}

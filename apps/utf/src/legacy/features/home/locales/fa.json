@@ -1,0 +1,70 @@
+{
+  "attachassignee popup": "شما تسک را قبول کرده‌اید",
+  "attachassignee popup accepted": "تسک قبلاً پذیرفته شده است",
+  "attachassignee popup go-to": "مشاهده",
+  "new-area-quick input-title": "ناحیه جدید",
+  "new-project-quick input-title": "پروژه جدید ",
+  "new-task-quick assignee": "اختصاص دادن",
+  "new-task-quick input-title": "یک وظیفه را اضافه کنید",
+  "role expiration absolute": {
+    "relative-date": {
+      "day": "numeric",
+      "month": "2-digit"
+    }
+  },
+  "role expiration pro": [
+    "تا",
+    {
+      "role expiration absolute": [
+        0
+      ]
+    }
+  ],
+  "role expiration relative": {
+    "relative-time": {
+      "numeric": "auto",
+      "unit": "day"
+    }
+  },
+  "role expiration trial": [
+    "تا",
+    {
+      "role expiration absolute": [
+        0
+      ]
+    }
+  ],
+  "subscribe desc": [
+    "ایجاد وظایف در پروژه های مشترک،",
+    "تنظیم ابلاغیه ها",
+    "و خیلی بیشتر"
+  ],
+  "subscribe title": "به تعرفه  Pro گذرید",
+  "telegram channel feed image": {
+    "dictionary": [
+      "COINS2.svg"
+    ]
+  },
+  "telegram channel feed link": {
+    "dictionary": [
+      "https://t.me/UTasksBlogENG/70"
+    ]
+  },
+  "telegram channel feed link-text": {
+    "dictionary": [
+      "مشاهده قیمت‌ها"
+    ]
+  },
+  "telegram channel feed title": {
+    "dictionary": [
+      "پرداخت از طریق Telegram Stars"
+    ]
+  },
+  "telegram channel link": "https://t.me/UTasksBlogENG",
+  "telegram channel name": "UTasks News ",
+  "telegram channel-hide": "پنهان کردن",
+  "telegram channel-show": "نمایش دادن",
+  "update button": "تجدید کردن",
+  "update title": "تجدید کردن برنامه موجود است",
+  "update title-loading": "در حال تجدید کردن هستیم..."
+}

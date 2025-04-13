@@ -1,0 +1,221 @@
+{
+  "about description": "UTasks Pro это неограниченный доступ к максимальным возможностям приложения на время действия подписки. Пользуйтесь безлимитным функционалом и ведите все свои задачи, не выходя из Telegram. Отменяйте подписку в любое время без скрытых платежей.",
+  "about plan description": [
+    "plan expiration-date",
+    "автоматически спишется платеж",
+    "plan price"
+  ],
+  "about plan description-cancelled": [
+    "Ваша подписка истекает",
+    "plan expiration-date"
+  ],
+  "about plan subtitle": [
+    "plan code"
+  ],
+  "about plan title": "Ваша подписка",
+  "about title": "О подписке",
+  "amount section gift": "Купить в подарок",
+  "amount section quantity": "Количество",
+  "amount section subtitle": [
+    "Купите лицензии для всей команды или в подарок",
+    "Скидки при покупке от 2 лицензий"
+  ],
+  "amount section title": "Количество лицензий",
+  "benefits": {
+    "dictionary": [
+      "Priority!NEW: Статус и приоритет: Помечайте важные задачи, выставив приоритет, и отслеживайте прогресс с помощью статусов",
+      "Files!NEW: Добавление файлов: Загружайте и получайте доступ к файлам прямо в задаче",
+      "Command!NEW: Короткие команды: Создавайте задачи прямо в чате, не открывая приложение",
+      "Avatar!NEW: Аватарки личных проектов: Установите свою картинку в качестве автарки для любого личного проекта",
+      "People: Несколько исполнителей в задаче: Назначайте задачу на любое количество участников группы, хоть на всех!",
+      "Folder: Безлимитное количество проектов: Создавайте неограниченное количество личных и совместных проектов",
+      "Task: Неограниченные задачи: Подключайте команду и ставьте сколько угодно задач участникам в групповых чатах",
+      "Clock: Крайний срок для задач: Устанавливайте дедлайны и достигайте результатов в срок",
+      "PurpleStack: Области для проектов: Группируйте проекты в области и задавайте тему - например \"Семья\" или \"Работа\"",
+      "Business: Особые условия для юр. лиц: Скидка при покупке 5+ лицензий, возможна оплата на р/с. Пишите в поддержку за подробностями."
+    ],
+    "input": {
+      "key": "0"
+    }
+  },
+  "benefits links": {
+    "dictionary": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "input": {
+      "key": "0"
+    }
+  },
+  "benefits title": "Преимущества подписки",
+  "legal agreement": " персональных данных",
+  "legal conjunction-1": " и принимаю условия ",
+  "legal conjunction-2": " и ",
+  "legal policy": " публичной оферты",
+  "legal policy payment": " политики оплаты",
+  "legal pre": "Я даю согласие на обработку",
+  "paid-subsubtitle": "Вам доступны все функции приложения.",
+  "paid-subtitle": "Благодарим за оформление подписки!",
+  "payment-disabled message": "Из-за плановых технических работ, возможность покупки UTasks Pro на данный момент недоступна.\nПросим повторить попытку позднее.",
+  "payment-disabled title": "Платежи отключены",
+  "payment-options section title": "Выберите способ оплаты:",
+  "payment-options section title single": "Способ оплаты:",
+  "payment-options subtitle": {
+    "dictionary": {
+      "MC": "Mastercard",
+      "MIR": "Мир, Я Пэй, Mastercard, Visa",
+      "Wallet": "Telegram Wallet",
+      "XTR": "Внутренней валютой Telegram"
+    }
+  },
+  "payment-options title": {
+    "dictionary": {
+      "MC": "Иностранной картой",
+      "MIR": "Российской картой",
+      "Wallet": "Оплата в TON (USDT)",
+      "XTR": "Telegram Stars"
+    }
+  },
+  "plan code": {
+    "dictionary": {
+      "3M": "На 3 месяца",
+      "6M": "На 6 месяцев",
+      "M": "На месяц",
+      "S": "На 14 дней",
+      "Y": "На год"
+    },
+    "input": {
+      "fallback": "На месяц",
+      "key": ""
+    }
+  },
+  "plan code-short": {
+    "dictionary": {
+      "3M": "3 месяца",
+      "6M": "6 месяцев",
+      "M": "месяц",
+      "S": "14 дней",
+      "Y": "год"
+    },
+    "input": {
+      "fallback": "",
+      "key": ""
+    }
+  },
+  "plan discount": {
+    "input": [
+      0
+    ],
+    "number": {
+      "style": "percent"
+    }
+  },
+  "plan expiration-date": {
+    "input": {
+      "today": "сегодня",
+      "tomorrow": "завтра"
+    },
+    "relative-date": {
+      "day": "numeric",
+      "month": "long",
+      "year": "numeric"
+    }
+  },
+  "plan price": {
+    "input": 0,
+    "number": {
+      "currency": "RUB",
+      "currencyDisplay": "symbol",
+      "style": "currency",
+      "trailingZeroDisplay": "stripIfInteger"
+    }
+  },
+  "plan title": "Оформить подписку",
+  "plan title-paid": "Продлить подписку",
+  "promo default-error": "Промокод не опознан",
+  "promo default-success": "Промокод успешно применён!",
+  "promo placeholder": "Промокод",
+  "resubscribe": [
+    "Продлить за",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "на",
+    {
+      "plan code-short": [
+        ""
+      ]
+    }
+  ],
+  "subscribe": [
+    "Подключить за",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "в",
+    {
+      "plan code-short": [
+        ""
+      ]
+    }
+  ],
+  "subscribe fail": "Оплата не удалась!",
+  "subscribe status": {
+    "dictionary": {
+      "cancelled": "",
+      "failed": "К сожалению, в оплате было отказано. Попробуйте в следующий раз.",
+      "paid": "Подписка успешно подключена! Поздравляем!",
+      "pending": "Ваш платёж был принят и в скором времени будет обработан."
+    },
+    "input": {
+      "key": "pending"
+    }
+  },
+  "subscribe success": "Оплата успешна!",
+  "subscribe-stars": [
+    "Подключить за",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "stars в",
+    {
+      "plan code-short": [
+        ""
+      ]
+    }
+  ],
+  "subscribe-trial": [
+    "Продлить Pro Trial за",
+    {
+      "plan price": [
+        0
+      ]
+    }
+  ],
+  "subsubtitle": "и приоритетная поддержка с подпиской",
+  "subsubtitle-2": "UTasks Pro.",
+  "subsubtitle-3": "",
+  "subsubtitle-4": "",
+  "subtitle": "Эксклюзивные функции",
+  "title": "UTasks Pro",
+  "title-short": "UTasks",
+  "unpaid-subsubtitle": "до истечения срока и продолжайте использовать все преимущества",
+  "unpaid-subsubtitle-2": "UTasks Pro.",
+  "unpaid-subtitle": "Продлите подписку",
+  "unsubscribe": "Отменить подписку",
+  "unsubscribe confirm": "Вы точно хотите отменить автоматическое продление UTasks Pro?",
+  "unsubscribe fail": "Ошибка! Не получилось отменить подиску. Пожалуйста, попробуйте снова или обратитесь в поддержку.",
+  "unsubscribe success": "Ваша подписка успешно отменена! Больше не будет автоматических списаний."
+}

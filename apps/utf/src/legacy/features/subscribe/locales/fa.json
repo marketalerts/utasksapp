@@ -1,0 +1,221 @@
+{
+  "about description": "UTasks Pro این دسترسی نامحدود به حداکثر عملکرد های برنامه را برای مدت زمان ابونمان فراهم می کند. از عملکرد های نامحدود استفاده کنید و تمام وظایف خود را بدون ترک Telegram مدیریت کنید. ابونمان خود را در هر زمان و بدون هیچ هزینه پنهانی لغو کنید.",
+  "about plan description": [
+    "plan expiration-date",
+    "پرداخت به طور خودکار بدهکار خواهد شد ",
+    "plan price"
+  ],
+  "about plan description-cancelled": [
+    "ابونمان شما رو به اتمام است ",
+    "plan expiration-date"
+  ],
+  "about plan subtitle": [
+    "plan code"
+  ],
+  "about plan title": "ابونمان شما",
+  "about title": "درباره ابونمان",
+  "amount section gift": "خرید به عنوان هدیه",
+  "amount section quantity": "تعداد",
+  "amount section subtitle": [
+    "مجوزها را برای کل تیم خریداری کنید",
+    "تخفیف‌ها در صورت خرید 2 یا بیشتر از 2 مجوز"
+  ],
+  "amount section title": "تعداد مجوزها",
+  "benefits": {
+    "dictionary": [
+      "Priority!NEW: تنظیم اولویت‌ها و وضعیت: کارهای مهم را علامت‌گذاری کنید و پیشرفت را با وضعیت‌ها پیگیری کنید",
+      "Files!NEW: افزودن فایل‌ها: بارگذاری و دسترسی به فایل‌ها مستقیماً در داخل وظیفه",
+      "Command!NEW: دستورات کوتاه: وظایف را مستقیماً در چت گروه مدیریت کنید، بدون نیاز به برنامه کوچک",
+      "Avatar!NEW: آواتارهای پروژه‌های خصوصی: بارگذاری و تنظیم آواتارها برای پروژه‌های شخصی",
+      "People!NEW:  چندین اجرا کننده در یک وظیفه: به هر تعداد از اعضای گروه، حتی به همه آنها، یک وظیفه را اختصاص دهید!",
+      "Folder: تعداد نامحدود پروژه ها: تعداد نامحدودی از پروژه های شخصی و مشترك ایجاد نمایید",
+      "Task: وظایف نامحدود: تیم خود را وصل کنید و هر تعداد وظیفه را به شرکت کنندگان در چت گروهی اختصاص دهید",
+      "Clock:  اخرین مهلت وظایف: موعد مقرر تعیین کنید و به موقع به نتایج برسید",
+      "PurpleStack: نواحی پروژه: پروژه ها را در نواحی گروه بندی کنید و یک موضوع تعیین کنید - به عنوان مثال، \"خانواده\" یا \"کار\"",
+      "Business: پیشنهاد ویژه برای شرکت‌ها: تخفیف‌ها هنگام خرید بیش از 5 اشتراک به طور همزمان؛ ما انتقالات مستقیم به حساب کاری ما را پذیرفته‌ایم. برای اطلاعات بیشتر با پشتیبانی ما تماس بگیرید."
+    ],
+    "input": {
+      "key": "0"
+    }
+  },
+  "benefits links": {
+    "dictionary": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "input": {
+      "key": "0"
+    }
+  },
+  "benefits title": "مزایای",
+  "legal agreement": " اطلاعات شخصی",
+  "legal conjunction-1": " و شرایط  ",
+  "legal conjunction-2": " و شرایط  ",
+  "legal policy": " پیشنهاد عمومی را می پذیرم",
+  "legal policy payment": " سیاست پرداخت",
+  "legal pre": "من با حذف بدهی منظم و پردازش موافقم",
+  "paid-subsubtitle": "اکنون به تمام عملکردهای برنامه دسترسی دارید.",
+  "paid-subtitle": "با تشکر از شما برای تنظیم ابونمان!",
+  "payment-disabled message": "به دلیل نگهداری برنامه ریزی شده، گزینه خرید  UTasks Pro در حال حاضر در دسترس نیست. لطفاً بعداً دوباره امتحان کنید.",
+  "payment-disabled title": "پرداخت‌ها غیرفعال می باشند",
+  "payment-options section title": "گزینه‌های پرداخت",
+  "payment-options section title single": "گزینه‌های پرداخت",
+  "payment-options subtitle": {
+    "dictionary": {
+      "MC": "فقط Mastercard",
+      "MIR": "MIR، Yandex.Pay، RUS Visa، RUS Mastercard",
+      "Wallet": "کیف پول تلگرام",
+      "XTR": "Internal Telegram currency"
+    }
+  },
+  "payment-options title": {
+    "dictionary": {
+      "MC": "کارت بین‌المللی Mastercard",
+      "MIR": "کارت‌های پرداخت روسی",
+      "Wallet": "TON (USDT)",
+      "XTR": "Telegram Stars"
+    }
+  },
+  "plan code": {
+    "dictionary": {
+      "3M": "برای ۳ ماه",
+      "6M": "برای ۶ ماه",
+      "M": "ماهانه",
+      "S": "برای 2 هفته",
+      "Y": "سالانه"
+    },
+    "input": {
+      "fallback": "",
+      "key": ""
+    }
+  },
+  "plan code-short": {
+    "dictionary": {
+      "3M": "۳ ماه",
+      "6M": "۶ ماه",
+      "M": "ماه",
+      "S": "14 روز",
+      "Y": "سال"
+    },
+    "input": {
+      "fallback": "",
+      "key": "Y"
+    }
+  },
+  "plan discount": {
+    "input": [
+      0
+    ],
+    "number": {
+      "style": "percent"
+    }
+  },
+  "plan expiration-date": {
+    "input": {
+      "today": "امروز",
+      "tomorrow": "فردا"
+    },
+    "relative-date": {
+      "day": "numeric",
+      "month": "long",
+      "year": "numeric"
+    }
+  },
+  "plan price": {
+    "input": 0,
+    "number": {
+      "currency": "RUB",
+      "currencyDisplay": "symbol",
+      "style": "currency",
+      "trailingZeroDisplay": "stripIfInteger"
+    }
+  },
+  "plan title": "ابونمان خود را تنظیم کنید",
+  "plan title-paid": "ابونمان خود را تمدید کنید",
+  "promo default-error": "پرومو کد شناسایی نشد",
+  "promo default-success": "پرومو کد با موفقیت اعمال شد!",
+  "promo placeholder": "پرومو کد ",
+  "resubscribe": [
+    "تمدید کردن برای دوره ی",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "در",
+    {
+      "plan code-short": [
+        ""
+      ]
+    }
+  ],
+  "subscribe": [
+    "وصل کردن برای دوره ی",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "در",
+    {
+      "plan code-short": [
+        ""
+      ]
+    }
+  ],
+  "subscribe fail": "پرداخت موفقیت نداشت!",
+  "subscribe status": {
+    "dictionary": {
+      "cancelled": "",
+      "failed": "متاسفانه پرداخت رد شد. لطفا دفعه بعد آن را امتحان کنید.",
+      "paid": "ابونمان با موفقیت وصل شد! تبریک می گویم!",
+      "pending": "پرداخت شما پذیرفته شده است و به زودی پردازش خواهد شد."
+    },
+    "input": {
+      "key": "pending"
+    }
+  },
+  "subscribe success": "پرداخت با موفقیت انجام شد!",
+  "subscribe-stars": [
+    "وصل کردن برای دوره ی",
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "در stars",
+    {
+      "plan code-short": [
+        ""
+      ]
+    }
+  ],
+  "subscribe-trial": [
+    {
+      "plan price": [
+        0
+      ]
+    },
+    "تمدید آزمایشی Pro برای"
+  ],
+  "subsubtitle": "ایجاد نواحی و موارد دیگر",
+  "subsubtitle-2": "عمل های انحصاری",
+  "subsubtitle-3": "با ابونمان",
+  "subsubtitle-4": "UTasks Pro.",
+  "subtitle": "تعداد نامحدود پروژه ها",
+  "title": "UTasks Pro",
+  "title-short": "UTasks",
+  "unpaid-subsubtitle": "قبل از انقضا ی مهلت و همچنان از تمام مزایای آن بهره مند شوید",
+  "unpaid-subsubtitle-2": "UTasks Pro.",
+  "unpaid-subtitle": "ابونمان خود را تمدید کنید",
+  "unsubscribe": "ابونمان خود را لغو کنید",
+  "unsubscribe confirm": "آیا مطمئن هستید که می خواهید تمدید خودکار UTasks Pro را لغو کنید؟",
+  "unsubscribe fail": "خطا! لغو ابونمان موفق نشد.  لطفا دوباره امتحان کنید یا با پشتیبانی تماس بگیرید.",
+  "unsubscribe success": "ابونمان شما با موفقیت لغو شده است! دیگر حذف بدهی خودکار وجود نخواهد داشت."
+}

@@ -1,0 +1,4 @@
+.pro-graddient-bg {
+  background: linear-gradient(28.45deg, #E666FF 29.71%, #7373E6 64.85%, #00A2F2 100%),
+    linear-gradient(180deg, rgba(241, 241, 241, 0) 54.19%, rgba(241, 241, 241, 0.25) 70.03%, #F1F1F1 85.55%, #F1F1F1 85.55%);
+}

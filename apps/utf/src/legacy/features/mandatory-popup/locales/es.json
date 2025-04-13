@@ -1,0 +1,79 @@
+{
+  "trial end button": "Continuar gratis",
+  "trial end free-desc": "Las tareas y proyectos existentes que excedan los límites del plan gratuito serán de solo lectura; otros conservarán todas sus funciones.",
+  "trial end free-subdesc": [
+    "– No podrás crear tareas en proyectos grupales que excedan el límite gratuito de 2;",
+    "– Imposibilidad de crear nuevas áreas."
+  ],
+  "trial end free-title": "¿Qué pasa con mis tareas y proyectos?",
+  "trial end plan-desc": {
+    "dictionary": {
+      "FREE": "Seguir con limitaciones del plan gratuito",
+      "PRO": "Oferta especial para la suscripción PRO de UTasks. Cerrar esta ventana descartará la oferta.",
+      "TRIAL": "Extender la prueba por 2 semanas más, sin anuncios PRO"
+    }
+  },
+  "trial end subtitle": "¡Esperamos que te haya gustado! Elige tu próximo plan:",
+  "trial end title": "Tu prueba PRO ha finalizado",
+  "trial start button": "¡Comenzar!",
+  "trial start subtitle": "¡Disfruta de todos los beneficios de UTasks PRO y descubre si te gusta!",
+  "trial start title": "Te damos 5 días para probar la suscripción PRO gratis",
+
+  "gift activated button": "OK",
+  "gift activated subtitle": "¡Este certificado ya ha sido activado!",
+  "gift activated subtitle-2": "Las activaciones repetidas son imposibles.",
+  "gift activated title": "Ya activado",
+  "gift activated already-pro": "Como ya disfrutas de todos los beneficios de UTasks PRO,",
+  "gift activated complementary": "Aquí tienes un plátano de cortesía:",
+  "gift activated benefits": "Obtén una suscripción a UTasks PRO o activa un certificado para disfrutar de todos los beneficios:",
+
+  "gift generic button": "Aceptar",
+  "gift generic subtitle-author": "Alguien",
+  "gift generic subtitle-bulk": "te ha regalado",
+  "gift generic subtitle-code": {
+    "dictionary": {
+      "Y": "1 año de UTasks PRO",
+      "6M": "6 meses de UTasks PRO",
+      "3M": "3 meses de UTasks PRO",
+      "S": "1 mes de UTasks PRO"
+    }
+  },
+  "gift generic subtitle-2": "Después de la activación, podrás disfrutar de todos los beneficios:",
+  "gift generic title": "UTasks PRO",
+  "gift gift button": "¡A trabajar!",
+  "gift gift title": "UTasks PRO",
+  "gift birthday button": "¡Gracias!",
+  "gift birthday title": "¡Feliz cumpleaños!",
+
+  "pro benefits": {
+    "dictionary": [
+      "Files!NEW: Agregar archivos: Sube y accede a archivos directamente dentro de la tarea",
+      "Avatar!NEW: Avatares de proyectos privados: Subir y configurar avatares para proyectos personales",
+      "Command!NEW: Comandos cortos: Gestiona tareas directamente en el chat de grupo, sin necesidad de mini aplicación",
+      "People: Múltiples asignados: ¡Asigna a muchas personas a cualquier tarea!",
+      "Folder: Más proyectos: Crea más proyectos sin limitaciones",
+      "Task: Tareas ilimitadas: Crea tareas en chats grupales sin limitaciones",
+      "Clock: Plazos para tareas: Establece plazos y asegura la finalización oportuna",
+      "PurpleStack: Áreas de proyectos: Mantén el orden y encuentra fácilmente los proyectos deseados",
+      "Business: Oferta especial para entidades legales: Descuentos al comprar más de 5 suscripciones a la vez; aceptamos transferencias directas a nuestra cuenta empresarial. Contacta a nuestro soporte para obtener más información."
+    ],
+    "input": {
+      "key": "0"
+    }
+  },
+  "pro benefits links": {
+    "dictionary": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "input": {
+      "key": "0"
+    }
+  }
+}

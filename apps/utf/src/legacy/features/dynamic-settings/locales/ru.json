@@ -1,0 +1,121 @@
+{
+  "setting apply-defaults": "Вернуть по-умолчанию",
+  "setting id": {
+    "dictionary": {
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION": "Разделы на главной",
+      "CLIENT_TIMECYCLE_OPTIONS": "Цикл часов",
+      "CLIENT_NEWS_TOGGLE": "Показывать новости",
+      "CLIENT_GEAR_TOGGLE": "Шестерёнка настроек",
+      "USER_EVENTS": "Уведомления в личку",
+      "USER_LANGUAGE": "Язык",
+      "USER_TIMEZONE": "Часовой пояс",
+      "PR_EVENTS": "Уведомления в чат",
+      "PR_LANGUAGE": "Язык уведомлений",
+      "PR_TIMEZONE": "Часовой пояс уведомлений",
+      "PR_USER_EVENTS": "Уведомления в личку",
+      "PR_USER_TASKS_USERSONLY": "Видимость задач"
+    }
+  },
+  "setting id-description": {
+    "dictionary": {
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION": "Выберите, какие разделы показывать на домашней странице",
+      "CLIENT_TIMECYCLE_OPTIONS": "По каким правилам показывать время",
+      "CLIENT_GEAR_TOGGLE": "Куда ведёт иконка шестерёнки в шапке совместного проекта",
+      "CLIENT_NEWS_TOGGLE": "на домашней странице",
+      "USER_EVENTS": "О каких событиях в разделе \"Входящие\" бот должен отправлять уведомления",
+      "PR_EVENTS": "При каких событиях бот будет присылать уведомления в групповой чат",
+      "PR_LANGUAGE": "Выберите язык уведомлений бота в групповом чате",
+      "PR_TIMEZONE": "Выберите часовой пояс, в котором будет указываться время в уведомлениях от бота в групповом чате",
+      "PR_USER_EVENTS": "Настройте уведомления о задачах в личном чате с ботом",
+      "PR_USER_TASKS_USERSONLY": "Выберите: видеть все задачи проекта или только те, в которых вы являетесь автором или исполнителем"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "setting rollback": "↶ Вернуть как было",
+  "setting section": {
+    "dictionary": {
+      "collaborative": "Общие",
+      "display": "Отображение уведомлений",
+      "notifications": "Уведомления",
+      "personal": "Личные",
+      "inbox": "Настройки раздела \"Входящие\"",
+      "app": "Настройки приложения",
+      "app-display": "Настройки отображения"
+    }
+  },
+  "setting section-description": {
+    "dictionary": {
+      "notifications": "Настройте уведомления в чате проекта под себя"
+    }
+  },
+  "setting toggle-all": {
+    "dictionary": {
+      "false": "Выключить все",
+      "true": "Включить все"
+    }
+  },
+  "setting toggle-text": {
+    "dictionary": {
+      "CLIENT_GEAR_TOGGLE_ENABLED": "Настройки",
+      "CLIENT_GEAR_TOGGLE_DISABLED": "Инфо",
+      "CLIENT_TIMECYCLE_UNDEFINED": "По-умолчанию",
+      "CLIENT_TIMECYCLE_H11": "00:00AM - 11:59PM",
+      "CLIENT_TIMECYCLE_H12": "01:00AM - 12:59PM",
+      "CLIENT_TIMECYCLE_H23": "00:00 - 23:59",
+      "CLIENT_TIMECYCLE_H24": "01:00 - 24:59",
+
+      "PR_USER_TASKS_USERSONLY_ENABLED": "Только мои",
+      "PR_USER_TASKS_USERSONLY_DISABLED": "Все",
+
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_ALL": "Все",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_COMPL": "Выполненные",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_NEXT7": "Следующие 7 дней",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_TOD": "Сегодня",
+      "CLIENT_HOMEFILTER_TOGGLE_COLLECTION_G_TOM": "Завтра",
+
+      "completeEvent": "Выполнение задачи",
+      "createEvent": "Создание задачи",
+      "deleteEvent": "Удаление задачи",
+      "editEvent": "Редактирование задачи",
+      "uncompleteEvent": "Переоткрытие задачи",
+      "notifyEvent": "Уведомление по времени"
+    }
+  },
+  "setting toggle-text-description": {
+    "dictionary": {
+      "CLIENT_GEAR_TOGGLE_ENABLED": "Напрямую на страницу настроек проекта",
+      "CLIENT_GEAR_TOGGLE_DISABLED": "На страницу информации о проекте",
+      "PR_USER_TASKS_USERSONLY_ENABLED": "Только задачи в которых вы автор или исполнитель",
+      "PR_USER_TASKS_USERSONLY_DISABLED": "Вы видите все задачи проекта",
+      "completeEvent": "🟢 #done",
+      "createEvent": "⚪️ #new",
+      "deleteEvent": "🔴 #delete",
+      "editEvent": "🟡 #change",
+      "uncompleteEvent": "⚪️ #reopen",
+      "notifyEvent": "⏰ осталось 15 минут"
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "setting value-boolean": {
+    "dictionary": {
+      "false": "Выкл.",
+      "true": "Вкл."
+    },
+    "input": {
+      "fallback": ""
+    }
+  },
+  "setting value-task-visibility": {
+    "dictionary": {
+      "false": "Все",
+      "true": "Только мои"
+    },
+    "input": {
+      "fallback": ""
+    }
+  }
+}
